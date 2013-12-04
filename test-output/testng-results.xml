@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7075" started-at="2013-12-04T19:28:00Z" finished-at="2013-12-04T19:28:07Z">
+  <suite name="Default suite" duration-ms="32882" started-at="2013-12-04T21:57:05Z" finished-at="2013-12-04T21:57:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7075" started-at="2013-12-04T19:28:00Z" finished-at="2013-12-04T19:28:07Z">
+    <test name="Default test" duration-ms="32882" started-at="2013-12-04T21:57:05Z" finished-at="2013-12-04T21:57:38Z">
       <class name="parallelPrep.ParallelPrepTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:parallelPrep.ParallelPrepTest@7d44576d]" name="beforeClass" is-config="true" duration-ms="15" started-at="2013-12-04T11:28:00Z" finished-at="2013-12-04T11:28:00Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:parallelPrep.ParallelPrepTest@476e0993]" name="beforeClass" is-config="true" duration-ms="11" started-at="2013-12-04T13:57:05Z" finished-at="2013-12-04T13:57:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="sampleTest(parallelPrep.DriverGenerator)[pri:0, instance:parallelPrep.ParallelPrepTest@7d44576d]" name="sampleTest" duration-ms="5416" started-at="2013-12-04T11:28:00Z" data-provider="Generator" finished-at="2013-12-04T11:28:05Z">
+        <test-method status="PASS" signature="sampleTest(utility.DriverGenerator)[pri:0, instance:parallelPrep.ParallelPrepTest@476e0993]" name="sampleTest" duration-ms="19287" started-at="2013-12-04T13:57:05Z" data-provider="Generator" finished-at="2013-12-04T13:57:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[parallelPrep.DriverGenerator$Firefox@41f4cf58]]>
+                <![CDATA[utility.DriverGenerator$Firefox@25771302]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-        <test-method status="PASS" signature="sampleTest(parallelPrep.DriverGenerator)[pri:0, instance:parallelPrep.ParallelPrepTest@7d44576d]" name="sampleTest" duration-ms="1596" started-at="2013-12-04T11:28:05Z" data-provider="Generator" finished-at="2013-12-04T11:28:07Z">
+        <test-method status="PASS" signature="sampleTest(utility.DriverGenerator)[pri:0, instance:parallelPrep.ParallelPrepTest@476e0993]" name="sampleTest" duration-ms="13559" started-at="2013-12-04T13:57:24Z" data-provider="Generator" finished-at="2013-12-04T13:57:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[parallelPrep.DriverGenerator$Chrome@10ebbf02]]>
+                <![CDATA[utility.DriverGenerator$Chrome@2934ad41]]>
               </value>
             </param>
           </params>

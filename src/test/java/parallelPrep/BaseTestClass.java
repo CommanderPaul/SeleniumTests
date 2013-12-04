@@ -4,6 +4,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
+import utility.DriverGenerator;
+
 public class BaseTestClass {
 	
     public static final String CHROME_PATH = "C:\\Windows\\chromedriver.exe";
