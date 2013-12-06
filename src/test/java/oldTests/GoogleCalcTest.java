@@ -1,4 +1,4 @@
-package seleniumTests;
+package oldTests;
 
 
 import java.util.concurrent.TimeUnit;
@@ -20,7 +20,7 @@ public class GoogleCalcTest {
 
 	
 	
-	@Test
+	//@Test
 	public void testOnePlusOne() {
 		// make a new web driver
 		WebDriver driver = new FirefoxDriver();
@@ -73,7 +73,7 @@ public class GoogleCalcTest {
 
 	}
 
-	@Test
+	//@Test
 	public void testValueOfPi(){
 		// go to page
 		WebDriver driver = new FirefoxDriver();

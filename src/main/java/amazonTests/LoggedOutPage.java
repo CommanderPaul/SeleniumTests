@@ -1,4 +1,4 @@
-package excelTests;
+package amazonTests;
 
 import org.openqa.selenium.WebDriver;
 

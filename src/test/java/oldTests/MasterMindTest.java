@@ -1,4 +1,4 @@
-package mastermind;
+package oldTests;
 
 import java.util.Random;
 
@@ -31,7 +31,7 @@ public class MasterMindTest {
 	
 	private int boardLength;
 	
-	@Test
+	//@Test
 	public void test() {
 		// make a new web driver
 		WebDriver driver = new FirefoxDriver();

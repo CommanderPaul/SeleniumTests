@@ -1,15 +1,15 @@
-package amazon;
+package oldTests;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import excelTests.BaseTestClass;
 import pageObjects.LoginPage;
-import pageObjects.PageObject;
+import utility.TakeScreenshot;
+import amazonTests.PageObject;
 
-public class LinkTest extends BaseTestClass{
+public class LinkTest extends amazonTests.BaseTestClass{
 
 	
 	
@@ -39,20 +39,24 @@ public class LinkTest extends BaseTestClass{
 		if (pageObject.checkForPresence(pageObject.ERROR_XPATH)){
 			System.out.println("error");
 			
-			pageObject.takeScreenshot();
+			//pageObject.takeScreenshot();
+			TakeScreenshot.captureImage(pageObject.getWebDriver());
+			
 		}
 		
 	}
 	
 	
-	@Test
+	//@Test
 	public void testCartLink() {
 		
 		PageObject pageObject;
 		pageObject = new PageObject(new ChromeDriver());
 		actualCartLinkTest(pageObject);
+		pageObject.closeDriver();
 		pageObject = new PageObject(new FirefoxDriver());
 		actualCartLinkTest(pageObject);
+		pageObject.closeDriver();
 	}
 	
 	private void actualCartLinkTest(PageObject pageObject){
@@ -62,30 +66,7 @@ public class LinkTest extends BaseTestClass{
 		//assertTrue("linkString should match current url",linkString.equals(pageObject.getCurrentURL()));
 	}
 
-	@Test
-	public void testFindShoes(){
-		// test has css issues
-		PageObject pageObject = new PageObject(new FirefoxDriver());
-		pageObject.goToURL(PageObject.MAIN_URL);
-		pageObject.populateAutoSuggestInput(pageObject.SEARCH_FEILD_XPATH, "shoes", "html/body/header/div/div[2]/div[2]/div/form/div[1]/div/div/div/div/div[2]");
-		pageObject.hitEnter(pageObject.SEARCH_FEILD_XPATH);
-	}
-	
-	
-	@Test
-	public void testNewUserAttempt(){
 
-		LoginPage loginPage = new LoginPage(new FirefoxDriver()); // make page object
-		loginPage.goToURL(loginPage.MAIN_URL);	//	go to amazon
-		loginPage.visibilityPageClicker(loginPage.ACCOUNT_XPATH);	// click on account
-		loginPage.populateInput(loginPage.LOGIN_XPATH, loginPage.generateRandomEmailAddress());	// assumes email address does not exist already
-		loginPage.visibilityPageClicker(loginPage.NEW_CUSTOMER_RADIO_BUTTON); // select new customer radio button
-		loginPage.visibilityPageClicker(loginPage.SIGN_IN_BUTTON);	// click on sign in button
-		loginPage.populateInput(loginPage.USER_NAME_FIELD, loginPage.generateRandomString());
-		loginPage.populateInput(loginPage.EMAIL_CONFIRMATION_XPATH, loginPage.emailAddress);
-		
-		
-		
-	}
+
 
 }

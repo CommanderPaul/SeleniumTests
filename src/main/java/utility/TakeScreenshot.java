@@ -11,27 +11,25 @@ import org.openqa.selenium.WebDriver;
 
 public class TakeScreenshot {
 
+	private static final String FILE_PATH_AND_NAME = "c:\\test\\screenshot.jpg";
 
-	public void testTakeScreenshot(WebDriver driver) {
+	public static void captureImage(WebDriver driver) {
 
 		/*
 		 * Next line makes the browser wait for 7 seconds before declaring it
-		 * cant find an element. Good for slow loading websites
+		 * can't find an element. Good for slow loading websites
 		 */
 		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-		driver.get("http://www.amazon.com");
 
-		System.out.println("Taking Screen Shot");
 		File screenshot = ((TakesScreenshot) driver)
 				.getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils
-					.copyFile(screenshot, new File("c:\\test\\screenshot.jpg"));
+					.copyFile(screenshot, new File(FILE_PATH_AND_NAME));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
 	}
-
 }

@@ -1,8 +1,8 @@
-package parallelPrep;
+package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 
-import excelTests.PageObject;
+import amazonTests.PageObject;
 
 public class ParallelPrepHelper extends PageObject{
 

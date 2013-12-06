@@ -1,4 +1,4 @@
-package seleniumTests;
+package oldTests;
 
 
 import org.openqa.selenium.By;
@@ -22,7 +22,7 @@ public class Test1 {
 
 
 
-	@Test
+	//@Test
 	public void test() {
 		
 		WebDriver driver = new FirefoxDriver();

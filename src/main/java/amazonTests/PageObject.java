@@ -1,15 +1,8 @@
-package excelTests;
+package amazonTests;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -39,6 +32,10 @@ public class PageObject {
 		this.wait = new WebDriverWait(driver, 20);
 	}
 	
+	public WebDriver getWebDriver(){
+		return driver;
+	}
+	
 	public int countNumberOfOccurances(By by){
 		return driver.findElements(by).size();
 	}
@@ -49,30 +46,6 @@ public class PageObject {
 	
 	public boolean checkForDisplayedWithBy(By by){
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(by )).isDisplayed();
-	}
-	
-	public void takeScreenshot() {
-
-		/*
-		 * Next line makes the browser wait for 7 seconds before declaring it
-		 * cant find an element. Good for slow loading websites
-		 */
-		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
-		// driver.get("http://www.amazon.com");// should already be at desired
-		// page
-
-		// System.out.println("Taking Screen Shot");
-		File screenshot = ((TakesScreenshot) driver)
-				.getScreenshotAs(OutputType.FILE);
-		try {
-			FileUtils
-					.copyFile(screenshot, new File("c:\\test\\screenshot.jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		driver.quit();
 	}
 	
 	
@@ -86,22 +59,47 @@ public class PageObject {
 		
 	}
 	
-	public void goToURL(String url){
-		driver.get(url);
+	public void goToURL(String url) {
+		try {
+			driver.get(url);
+		} catch (Exception e) {
+			// take screen shot and log error
+			// print message for now
+			System.out.println(" syso message " + e.getMessage());
+		}
 	}
 	
-	public void visibilityPageClicker(String xpath){
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath))).click();
+	public void visibilityPageClicker(String xpath) {
+		try {
+			wait.until(
+					ExpectedConditions.visibilityOfElementLocated(By
+							.xpath(xpath))).click();
+		} catch (Exception e) {
+			// take screen shot and log error
+			// print message for now
+			System.out.println(" syso message " + e.getMessage());
+		}
 	}
 	
-	public void visibilityPageClickerWithBy(By by){
-		wait.until(ExpectedConditions.visibilityOfElementLocated(by)).click();
+	public void visibilityPageClickerWithBy(By by) {
+		try {
+			wait.until(ExpectedConditions.visibilityOfElementLocated(by))
+					.click();
+		} catch (Exception e) {
+			// take screen shot and log error
+			// print message for now
+			System.out.println(" syso message " + e.getMessage());
+		}
 	}
 	
 	public String getInnerHTML(By by){
 		return wait.until(
 				ExpectedConditions.visibilityOfElementLocated(by))
-				.findElement(by).getText();
+				.getText();
+	}
+	
+	public void closeDriver(){
+		driver.close();
 	}
 	
 	public String getAttributeValue(String xpath, String attribute){
@@ -111,10 +109,18 @@ public class PageObject {
 	public String getCurrentURL(){
 		return driver.getCurrentUrl();
 	}
-	
-	public void hitEnter(String xpath){
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath))).sendKeys(Keys.RETURN);
+
+	public void hitEnter(By by){
+		try {
+			wait.until(ExpectedConditions.visibilityOfElementLocated(by)).sendKeys(Keys.RETURN);
+		} catch (Exception e) {
+			// take screen shot and log error
+			// print message for now
+			System.out.println(" syso message " + e.getMessage());
+		}
 	}
+	
+	
 	public int getWindowHeight(){
 		return driver.manage().window().getSize().getHeight();
 	}

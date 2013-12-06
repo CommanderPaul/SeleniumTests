@@ -1,4 +1,4 @@
-package amazon;
+package oldTests;
 
 //import org.openqa.selenium.chrome.ChromeDriver;
 //import org.testng.Assert;

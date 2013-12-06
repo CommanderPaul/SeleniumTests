@@ -2,7 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends PageObject{
+public class LoginPage extends amazonTests.PageObject{
 	
 	public static final String LOGIN_XPATH = "//input[@id='ap_email']";
 	public static final String NEW_CUSTOMER_RADIO_BUTTON = "//input[@id='ap_signin_create_radio']";
@@ -32,6 +32,7 @@ public class LoginPage extends PageObject{
 		return password;
 	}
 	
+	//add input parameter for length of string
 	public String generateRandomString() {
 		StringBuffer randomString = new StringBuffer();
 		for (int x = 0; x < 11; x++) {

@@ -1,4 +1,4 @@
-package seleniumTests;
+package oldTests;
 
 
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class ChainProject {
 
-	@Test
+	//@Test
 	public void test() {
 		
 		// make a new web driver
