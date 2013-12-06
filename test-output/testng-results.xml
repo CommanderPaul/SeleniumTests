@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22023" started-at="2013-12-06T18:27:21Z" finished-at="2013-12-06T18:27:43Z">
+  <suite name="Default suite" duration-ms="35767" started-at="2013-12-06T23:23:49Z" finished-at="2013-12-06T23:24:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22023" started-at="2013-12-06T18:27:21Z" finished-at="2013-12-06T18:27:43Z">
-      <class name="oldTests.LinkTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:oldTests.LinkTest@1c057a1e]" name="beforeClass" is-config="true" duration-ms="13" started-at="2013-12-06T10:27:21Z" finished-at="2013-12-06T10:27:21Z">
+    <test name="Default test" duration-ms="35767" started-at="2013-12-06T23:23:49Z" finished-at="2013-12-06T23:24:25Z">
+      <class name="amazonTests.ParallelPrepTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:amazonTests.ParallelPrepTest@5ee55d17]" name="beforeClass" is-config="true" duration-ms="30" started-at="2013-12-06T15:23:49Z" finished-at="2013-12-06T15:23:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testScreenShotLoginError()[pri:0, instance:oldTests.LinkTest@1c057a1e]" name="testScreenShotLoginError" duration-ms="21995" started-at="2013-12-06T10:27:21Z" finished-at="2013-12-06T10:27:43Z">
+        <test-method status="PASS" signature="giftClickTest(utility.DriverGenerator)[pri:0, instance:amazonTests.ParallelPrepTest@5ee55d17]" name="giftClickTest" duration-ms="19832" started-at="2013-12-06T15:23:49Z" data-provider="Generator" finished-at="2013-12-06T15:24:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utility.DriverGenerator$Firefox@308a95d2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScreenShotLoginError -->
-      </class> <!-- oldTests.LinkTest -->
+        </test-method> <!-- giftClickTest -->
+        <test-method status="PASS" signature="giftClickTest(utility.DriverGenerator)[pri:0, instance:amazonTests.ParallelPrepTest@5ee55d17]" name="giftClickTest" duration-ms="15876" started-at="2013-12-06T15:24:09Z" data-provider="Generator" finished-at="2013-12-06T15:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utility.DriverGenerator$Chrome@59db869]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftClickTest -->
+      </class> <!-- amazonTests.ParallelPrepTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

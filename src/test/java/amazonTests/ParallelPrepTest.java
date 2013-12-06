@@ -15,10 +15,14 @@ import utility.DriverGenerator;
 
 public class ParallelPrepTest extends BaseTestClass {
 	
+	private static final boolean FAIL_TEST = false;
 	private static final String AMAZON_HOME_PAGE = "http://www.amazon.com";
 	private static final By TODAYS_DEALS_LINK = new By.ByLinkText("Today's Deals");
+	
+	
 	private static final By GIFT_CARDS_LINK = new By.ByLinkText("Gift Cards");
-	private static final By HUNDRED_TO_200_LINK = new By.ByLinkText("$100 to $200");
+	private static final By HUNDRED_TO_200_LINK = new By.ByXPath("html/body/div[3]/div/div[4]/div/div[2]/div/ul[9]/li[4]/a");//TODO fix brittleness
+	
 	private static final By FIRST_LIGHTNING_DEAL = new By.ByXPath("(//*[@id='dealActionButton']/img[@title='Add to cart'])[1]");
 	private static final By SIGN_IN_FORM_BY_ID = new By.ById("ap_signin_form");
 	
@@ -34,13 +38,10 @@ public class ParallelPrepTest extends BaseTestClass {
 	private static final By TODAYS_DEALS_TEXT = new By.ByXPath("//div[@class='gbh1-bold']");
 	private static final By ADD_TO_CART_BUTTON = new By.ById("dealActionButton");
 	
-	
-	
-	
-	
+
 	// dataProvider key word does a lot of thing in testng.
 	// dataProvider runs the test for each item in the multidimensional array
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void sampleTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
@@ -49,42 +50,54 @@ public class ParallelPrepTest extends BaseTestClass {
 		// When I click on add to cart I am prompted to create an account or log in.
 		// use a lightning deal for desired behavior
 		
-		// go to todays deals
 		pph.goToURL(AMAZON_HOME_PAGE);
-		pph.visibilityPageClickerWithBy(TODAYS_DEALS_LINK);
+		pph.clickOnVisibleElement(TODAYS_DEALS_LINK);
 		
-		// click on first add to cart (lightning dea onlyl)
-		pph.visibilityPageClickerWithBy(FIRST_LIGHTNING_DEAL);
+		// click on first add to cart (lightning deals only)
+		pph.clickOnVisibleElement(FIRST_LIGHTNING_DEAL);
 		
-		// check for Sign In
-		Assert.assertTrue(pph.checkForDisplayedWithBy(SIGN_IN_FORM_BY_ID));
-
-		wd.quit();
+		try {
+			Assert.assertTrue(pph.isDisplayed(SIGN_IN_FORM_BY_ID));
+		} finally {
+			wd.quit();
+		}
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
-	public void giftClickTest(DriverGenerator dg){
-		
+	/**
+	 * When I click Gift cards and then click the 
+	 *  $100-$200 link I can select as delivery type "Email", "Mail" and "Print at Home"
+	 * @param dg
+	 */
+	@Test(dataProvider = DATA_PROVIDER)
+	public void giftClickTest(DriverGenerator dg) {
+
 		WebDriver wd = dg.generate();
 		ParallelPrepHelper pph = new ParallelPrepHelper(wd);
 
-		// When I click Gift cards and then click the 
-		// $100-$200 link I can select as delivery type "Email", "Mail" and "Print at Home"
+		boolean madeItToPage = pph.goToURL(AMAZON_HOME_PAGE);
+		boolean giftCardLink = pph.clickOnVisibleElement(GIFT_CARDS_LINK);
+		boolean priceRangeLink = pph.clickOnVisibleElement(HUNDRED_TO_200_LINK);
 		
-		// go to home
-		pph.goToURL(AMAZON_HOME_PAGE);
-		// click on gift cards link
-		pph.visibilityPageClickerWithBy(GIFT_CARDS_LINK);
-		// click on price 100 to 200 link
-		pph.visibilityPageClickerWithBy(HUNDRED_TO_200_LINK);
-		// email, mail, and printathome delivery types are present
-		
-		Assert.assertEquals("E-mail", pph.getInnerHTML(EMAIL_OPTION));
+		if (madeItToPage && giftCardLink && priceRangeLink) {
+			
+			try {
+				Assert.assertEquals("E-mail", pph.getInnerHTML(EMAIL_OPTION));
+				Assert.assertEquals("Mail", pph.getInnerHTML(MAIL_OPTION));
+				Assert.assertEquals("Print at Home",pph.getInnerHTML(PRINT_OPTION));
 
-		wd.quit();
+			} finally {// close browser even if any of the assertions fail
+				wd.quit();
+			}
+
+		} else {
+			Assert.assertTrue(
+					"There was a problem with the test setup, not the assertions",
+					FAIL_TEST);
+			wd.quit();
+		}
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void emptyTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
@@ -95,52 +108,52 @@ public class ParallelPrepTest extends BaseTestClass {
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void newUserAttemptTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
 
 		LoginPage loginPage = new LoginPage(wd); // make page object
-		loginPage.goToURL(loginPage.MAIN_URL);	//	go to amazon
-		loginPage.visibilityPageClicker(loginPage.ACCOUNT_XPATH);	// click on account
-		loginPage.populateInput(loginPage.LOGIN_XPATH, loginPage.generateRandomEmailAddress());	// assumes email address does not exist already
-		loginPage.visibilityPageClicker(loginPage.NEW_CUSTOMER_RADIO_BUTTON); // select new customer radio button
-		loginPage.visibilityPageClicker(loginPage.SIGN_IN_BUTTON);	// click on sign in button
-		loginPage.populateInput(loginPage.USER_NAME_FIELD, loginPage.generateRandomString());
-		loginPage.populateInput(loginPage.EMAIL_CONFIRMATION_XPATH, loginPage.emailAddress);
+		loginPage.goToURL(LoginPage.MAIN_URL);	//	go to amazon
+		loginPage.clickOnVisibleElement(LoginPage.ACCOUNT);	// click on account
+		loginPage.populateInput(LoginPage.LOGIN, loginPage.generateRandomEmailAddress());	// assumes email address does not exist already
+		loginPage.clickOnVisibleElement(LoginPage.NEW_CUSTOMER_RADIO_BUTTON); // select new customer radio button
+		loginPage.clickOnVisibleElement(LoginPage.SIGN_IN_BUTTON);	// click on sign in button
+		loginPage.populateInput(LoginPage.USER_NAME_FIELD, loginPage.generateRandomString());
+		loginPage.populateInput(LoginPage.EMAIL_CONFIRMATION, loginPage.emailAddress);
 
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void findShoesTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
 
 		PageObject pageObject = new PageObject(wd);
 		pageObject.goToURL(PageObject.MAIN_URL);
-		pageObject.populateAutoSuggestInput(pageObject.SEARCH_FEILD_XPATH, "shoes", "html/body/header/div/div[2]/div[2]/div/form/div[1]/div/div/div/div/div[2]");
+		pageObject.populateAutoSuggestInput(PageObject.SEARCH_FEILD, "shoes", PageObject.SEARCH_FIELD_SUGGESTION);
 		
-		By TEMP_BY = new By.ByXPath(pageObject.SEARCH_FEILD_XPATH);//TODO clean this up
+		By TEMP_BY = new By.ByXPath(PageObject.SEARCH_FEILD_XPATH);//TODO clean this up
 		
 		pageObject.hitEnter(TEMP_BY);
 
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void renderedPageTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
 		LoggedOutPage pph = new LoggedOutPage(wd);
 		// Initial page navigation takes you to a properly rendered amazon.com page.
 		pph.goToURL(AMAZON_HOME_PAGE);
-		Assert.assertTrue(pph.checkForDisplayedWithBy(AMAZON_LOGO));
+		Assert.assertTrue(pph.isDisplayed(AMAZON_LOGO));
 
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void cartZeroTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
@@ -152,42 +165,42 @@ public class ParallelPrepTest extends BaseTestClass {
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void todaysDealsTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
 		LoggedOutPage pph = new LoggedOutPage(wd);
 		// When I click on Today's Deals I am taken to the daily deals. (from the home page right?)
 		pph.goToURL(AMAZON_HOME_PAGE);
-		pph.visibilityPageClickerWithBy(TODAYS_DEALS_LINK);
+		pph.clickOnVisibleElement(TODAYS_DEALS_LINK);
 		Assert.assertEquals(TODAYS_DEALS_INNERHTML, pph.getInnerHTML(TODAYS_DEALS_TEXT));
 		
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
+	//@Test( dataProvider= DATA_PROVIDER)
 	public void todaysDealsAddToCartTest(DriverGenerator dg){
 		
 		WebDriver wd = dg.generate();
 		LoggedOutPage pph = new LoggedOutPage(wd);
 		// When I click on Today's Deals there is a button to add items to my cart for some items.
 		pph.goToURL(AMAZON_HOME_PAGE);
-		pph.visibilityPageClickerWithBy(TODAYS_DEALS_LINK);
+		pph.clickOnVisibleElement(TODAYS_DEALS_LINK);
 		Assert.assertTrue(pph.countNumberOfOccurances(ADD_TO_CART_BUTTON) > 0);
 		
 		wd.quit();
 	}
 	
-	@Test( dataProvider= DATA_PROVIDER)
-	public void bugJonTest(DriverGenerator dg){
-		
-		WebDriver wd = dg.generate();
-		LoggedOutPage pph = new LoggedOutPage(wd);
-		// When I click on Today's Deals there is a button to add items to my cart for some items.
-		for (int x = 0; x < 2; x++){
-		pph.goToURL("http://www.omfgdogs.com/");
-		}
-		
-		//wd.quit();
-	}
+//	@Test( dataProvider= DATA_PROVIDER)
+//	public void bugJonTest(DriverGenerator dg){
+//		
+//		WebDriver wd = dg.generate();
+//		LoggedOutPage pph = new LoggedOutPage(wd);
+//		
+//		for (int x = 0; x < 2; x++){
+//		pph.goToURL("http://www.omfgdogs.com/");
+//		}
+//		
+//		//wd.quit();
+//	}
 }

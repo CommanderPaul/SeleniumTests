@@ -1,17 +1,16 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends amazonTests.PageObject{
-	
+	//TODO move constants that only apply to specific page
 	public static final String LOGIN_XPATH = "//input[@id='ap_email']";
-	public static final String NEW_CUSTOMER_RADIO_BUTTON = "//input[@id='ap_signin_create_radio']";
-	public static final String SIGN_IN_BUTTON = "//input[@id='signInSubmit-input']";
-	public static final String USER_NAME_FIELD = "//input[@id='ap_customer_name']";
-	public static final String EMAIL_CONFIRMATION_XPATH = "//input[@id='ap_email_check']";
-	
-	
-	
+	public static final By NEW_CUSTOMER_RADIO_BUTTON = By.id("ap_signin_create_radio");
+	public static final By SIGN_IN_BUTTON = By.id("signInSubmit-input");
+	public static final By USER_NAME_FIELD = By.id("ap_customer_name");
+	public static final By EMAIL_CONFIRMATION = By.id("ap_email_check");
+
 	public String emailAddress;
 	public String password;
 	
