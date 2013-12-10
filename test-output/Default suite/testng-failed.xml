@@ -5,8 +5,8 @@
     <classes>
       <class name="amazonTests.ParallelPrepTest">
         <methods>
-          <include name="giftClickTest" invocation-numbers="0 1"/>
           <include name="beforeClass"/>
+          <include name="wrongPasswordAndValidAccountEmail" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- amazonTests.ParallelPrepTest -->
     </classes>

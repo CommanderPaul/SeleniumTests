@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="18">
+          <addon id="1095">
+  <name>XPath Checker</name>
+  <type id="1">Extension</type>
+  <guid>{7eb3f691-25b4-4a85-9038-9e57e2bcd537}</guid>
+  <slug>xpath-checker</slug>
+  <version>0.4.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4842">
+      <name>Brian Slesinsky</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/brian-slesinsky/?src=api</link>
+    </author>      </authors>
+  <summary>An interactive editor for XPath expressions.</summary>
+  <description>An interactive editor for XPath expressions.  Choose &#39;View XPath&#39; in the context menu and it will show the editor.  You can edit the XPath expression and it incrementally updates the results.
+</description><license>
+    <name>GNU Lesser General Public License, version 2.1</name>
+    <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/2/2113.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/2/2113.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>context menu</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/1/1911.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/1/1911.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>XPath Editor Window</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/xpath-checker/?src=api</learnmore><install hash="sha256:b97438b1e37f648283774d1edde481decdd75f00401f81a943619075750870e7"
+    os="ALL"
+    size="6144">https://addons.mozilla.org/firefox/downloads/file/95000/xpath_checker-0.4.4-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="15">
+      https://addons.mozilla.org/en-US/firefox/addon/xpath-checker/reviews/?src=api
+    </reviews>
+    <total_downloads>369426</total_downloads>
+    <weekly_downloads>1528</weekly_downloads>
+    <daily_users>23230</daily_users>
+    <created epoch="1124000577">
+      2005-08-14T06:22:57Z
+    </created>
+    <last_updated epoch="1280249441">
+      2010-07-27T16:50:41Z
+    </last_updated>
+    <homepage>http://code.google.com/p/xpathchecker/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="218308">
+  <name>xpath finder</name>
+  <type id="1">Extension</type>
+  <guid>xpath_finder@xpath_finder.com</guid>
+  <slug>xpath-finder</slug>
+  <version>1.02</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4803461">
+      <name>Chiyan</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/chiyan/?src=api</link>
+    </author>      </authors>
+  <summary>Find and experiment with xpath in web pages easily.</summary>
+  <description>This add-on is a toolbar that helps to explore and experiment with the xpaths for the elements on the current active tab.</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/xpath-finder/license/1.02</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>4.0.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="437">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48251.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48251.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/xpath-finder/?src=api</learnmore><install hash="sha256:d63d21de52c3e99b420932c6181797bb501f524456467703309a495584754405"
+    os="ALL"
+    size="18432">https://addons.mozilla.org/firefox/downloads/file/120212/xpath_finder-1.02-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/xpath-finder/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="0.99">
+            $0.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/xpath-finder/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="2">
+      https://addons.mozilla.org/en-US/firefox/addon/xpath-finder/reviews/?src=api
+    </reviews>
+    <total_downloads>51666</total_downloads>
+    <weekly_downloads>481</weekly_downloads>
+    <daily_users>6003</daily_users>
+    <created epoch="1282022806">
+      2010-08-17T05:26:46Z
+    </created>
+    <last_updated epoch="1307992471">
+      2011-06-13T19:14:31Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="11900">
+  <name>FirePath</name>
+  <type id="1">Extension</type>
+  <guid>FireXPath@pierre.tholence.com</guid>
+  <slug>firepath</slug>
+  <version>0.9.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4504606">
+      <name>Pierre Tholence</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/pierre-tholence/?src=api</link>
+    </author>      </authors>
+  <summary>FirePath is a Firebug extension that adds a development tool to edit, inspect and generate XPath 1.0 expressions, CSS 3 selectors and JQuery selectors (Sizzle selector engine).</summary>
+  <description>With FirePath you can:
+  * Edit XPath expressions, CSS3 selectors and JQuery selectors (Sizzle selector engine) with auto completion for XPath (using TAB or up and down arrows).
+  * Evaluate the expression/selector on any HTML or XML documents.
+  * Display the result of evaluations in a Firebug-like DOM tree.
+  * Highlight the results directly on the document displayed by Firefox (works only with HTML documents).
+  * Generate an XPath expression or a CSS selector for an element by right clicking on it and selecting &#34;Inspect in FirePath&#34; in the context menu.
+  * Define the evaluation context (parent) of an expression/selector.
+  * Choose the document in which to evaluate the expression/selector (only applicable for HTML documents with frames or iframes).
+
+FirePath 0.9.7  requires Firefox 3.5 to 6.0 and Firebug 1.4 to 1.8.*
+Note that the XPath auto completion does not work with Firebug 1.6 and higher
+
+
+
+Author: 
+Pierre Tholence 
+FirePath has been developed during my master project at DB4ALL.
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/652f8ff200006ec75768272d64e390e984373a38/http%3A//DB4ALL.com&#34; rel=&#34;nofollow&#34;&gt;DB4ALL.com&lt;/a&gt; is a Start-Up at the Database Laboratory at EPFL funded by Innogrant. We are experts on decision support systems and web robots for database collection, integration and cleaning.
+
+Our objective is to promote the use of datasets to users and companies for making more informed decisions. By datasets we refer to the content (list of books, movies, restaurants, jobs, biochemical products, zip codes...).</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11900-64.png?modified=1328144657</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11900-32.png?modified=1328144657</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="490" height="267">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/32/32322.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="108">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/32/32322.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="700" height="215">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/32/32281.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="61">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/32/32281.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="700" height="265">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/32/32283.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="75">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/32/32283.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firepath/?src=api</learnmore><install hash="sha256:c564e1f305766c5f08d71ad366042413e0d0be825571c31ee86724ea26fc02dc"
+    os="ALL"
+    size="51200">https://addons.mozilla.org/firefox/downloads/file/128347/firepath-0.9.7-fx.xpi?src=api</install>
+  <developer_comments>If you have any problems or suggestions please use the discussion group:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/07f65e94289d65c21a44216ed6ebfc2f9005c94a/http%3A//groups.google.com/group/firepath&#34; rel=&#34;nofollow&#34;&gt;http://groups.google.com/group/firepath&lt;/a&gt;
+
+You can also email me at:
+pierre.tholence@gmail.com
+
+If you think you found a bug, you can report an issue here: 
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/382237f57bef2433704d41deaea193b1a693323b/http%3A//code.google.com/p/firepath/issues/list&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/firepath/issues/list&lt;/a&gt;</developer_comments>
+    <reviews num="16">
+      https://addons.mozilla.org/en-US/firefox/addon/firepath/reviews/?src=api
+    </reviews>
+    <total_downloads>355941</total_downloads>
+    <weekly_downloads>3709</weekly_downloads>
+    <daily_users>39145</daily_users>
+    <created epoch="1242057974">
+      2009-05-11T16:06:14Z
+    </created>
+    <last_updated epoch="1312695353">
+      2011-08-07T05:35:53Z
+    </last_updated>
+    <homepage>http://code.google.com/p/firepath/</homepage>
+    <support>http://groups.google.com/group/firepath</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="11905">
+  <name>Firefinder for Firebug</name>
+  <type id="1">Extension</type>
+  <guid>firefinder@robertnyman.com</guid>
+  <slug>firefinder-for-firebug</slug>
+  <version>1.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1405832">
+      <name>Robert Nyman</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/robert-nyman/?src=api</link>
+    </author>      </authors>
+  <summary>Finds HTML elements matching chosen CSS selector(s) or XPath expression</summary>
+  <description>Firefinder is an add-on to Firebug, to help find HTML elements matching chosen CSS selector(s) or XPath expression. You can also auto-select elements when hovering or via the context menu.
+
+View the results and then share them with a friend via the FriendlyFire feature, or click Inspect to go to the corresponding element in Firebug&#39;s HTML tab.</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11905-64.png?modified=1364408425</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11905-32.png?modified=1364408425</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="229">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36551.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="65">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36551.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>A picture of Firefinder when a filtering for DIV elements has been performed</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="229">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36552.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="65">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36552.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>A picture of Firefinder when the FriendlyFire feature has just been invoked</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="88">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36575.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="25">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36575.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>A picture of the FriendlyFire workflow</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/?src=api</learnmore><install hash="sha256:23db58d324acfc2ff6b49316bb09a9eead90908c1d8c6312cc51b3103c577f9e"
+    os="ALL"
+    size="30370">https://addons.mozilla.org/firefox/downloads/file/200250/firefinder_for_firebug-1.4-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="1.00">
+            $1.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="24">
+      https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/reviews/?src=api
+    </reviews>
+    <total_downloads>637039</total_downloads>
+    <weekly_downloads>1928</weekly_downloads>
+    <daily_users>33300</daily_users>
+    <created epoch="1242090317">
+      2009-05-12T01:05:17Z
+    </created>
+    <last_updated epoch="1364405537">
+      2013-03-27T17:32:17Z
+    </last_updated>
+    <homepage>http://robertnyman.com/firefinder/</homepage>
+    <support>http://groups.google.com/group/firefinder</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="352155">
+  <name>Firebug MarkLogic Developer Console</name>
+  <type id="1">Extension</type>
+  <guid>fireml@sirma.bg</guid>
+  <slug>marklogic-console-for-fireb</slug>
+  <version>1.1.11</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5990521">
+      <name>ConsoleML by Sirma</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/consoleML/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug MarkLogic Developer Console 
+Real-time Log Viewer and Event Analyzer for MarkLogic XML/XPATH Database Developers</summary>
+  <description>You do not have to go up and down in long MarkLogic log file with ConsoleML you see just logging information of your actions.
+
+&lt;b&gt;Plugin is platform independent and works for Windows, Mac &amp;amp; Linux.&lt;/b&gt;
+
+&lt;ul&gt;&lt;li&gt;ConsoleML is an extension to Firebug which displays MarkLogic logging information in Firefox Firebug.&lt;/li&gt;&lt;li&gt;ConsoleML enables you to debug your application&#39;s server-side MarkLogic code from within your browser.&lt;/li&gt;&lt;li&gt;ConsoleML works with a build-in MarkLogic logging module. It does not affect page layout and works well with AJAX Remoting requests.&lt;/li&gt;&lt;li&gt;ConsoleML reads the MarkLogic Log file and sends logging events to client-side using a Firefox browser extension.&lt;/li&gt;&lt;li&gt;ConsoleML gives you an opportunity to save a part of the log files.&lt;/li&gt;&lt;li&gt;ConsoleML displays local and remote logs.&lt;/li&gt;&lt;li&gt;ConsoleML saves Authentication passwords secure.&lt;/li&gt;&lt;li&gt;ConsoleML currently shows debugging information for all MarkLogic log levels: &lt;blockquote&gt;Finest, Finer, Fine, Debug, Config, Info Notice, Warning, Error, Critical, Alert, Emergency&lt;/blockquote&gt;&lt;/li&gt;&lt;li&gt;ConsoleML offers numerous configuration options for log levels and filters to limit the displayed log to a desired set of options.&lt;/li&gt;&lt;li&gt;ConsoleML have build-in search within visible log - next match, previous match, highlight all matches.&lt;/li&gt;&lt;li&gt;ConsoleML auto-popup the plugin when an user defined certain log level as important. The developer can now debug his application and be sure that the ConsoleML will popup only when his attention is required.&lt;/li&gt;&lt;li&gt;ConsoleML have button view entire log.&lt;/li&gt;&lt;li&gt;ConsoleML supports different UI themes.&lt;/li&gt;&lt;li&gt;ConsoleML with a short-key F9 - open/close &lt;/li&gt;&lt;/ul&gt;
+&lt;b&gt;Note: ConsoleML log limitations&lt;/b&gt;
+&lt;blockquote&gt;If log file is too big might takes long to display it. Limitations are based on your hardware. To prevent this limitation ConsoleML displays only last MB of the log file nevertheless some computers will not manage to display 1MB.&lt;/blockquote&gt;
+&lt;b&gt;ConsoleML links:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Check Wiki for installation instructions - &lt;a href=&#34;http://outgoing.mozilla.org/v1/a957fc689cc5354a9509d25d9d3aa2891ac1df2a/http%3A//code.google.com/p/console-ml/wiki/HowToInstall&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/console-ml/wiki/HowToInstall&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Check Wiki for log setup instructions - &lt;a href=&#34;http://outgoing.mozilla.org/v1/fc078c54772cd59dbc7563d56c1dcd1fff54770a/http%3A//code.google.com/p/console-ml/wiki/LogSetup&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/console-ml/wiki/LogSetup&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Follow us on Twitter - &lt;a href=&#34;http://outgoing.mozilla.org/v1/59754615c4a5734da0e6bf2034ce866fa4db66d7/http%3A//twitter.com/ConsoleML&#34; rel=&#34;nofollow&#34;&gt;http://twitter.com/ConsoleML&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Official website - &lt;a href=&#34;http://outgoing.mozilla.org/v1/40377689014545546b66ef368517eed328fae032/http%3A//www.sirmasolutions.com/index.php/products/ml-firefox-console&#34; rel=&#34;nofollow&#34;&gt;http://www.sirmasolutions.com/index.php/products/ml-firefox-console&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/352/352155-64.png?modified=1343418122</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/352/352155-32.png?modified=1343418122</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>16.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67520.png?src=api&amp;modified=1328704267
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67520.png?src=api&amp;modified=1328704267
+      </thumbnail><caption>Ridget Theme</caption></preview><preview position="1">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67521.png?src=api&amp;modified=1328704244
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67521.png?src=api&amp;modified=1328704244
+      </thumbnail><caption>Default Theme</caption></preview><preview position="2">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67522.png?src=api&amp;modified=1328704244
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67522.png?src=api&amp;modified=1328704244
+      </thumbnail><caption>Flat Theme</caption></preview><preview position="3">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67523.png?src=api&amp;modified=1328704267
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67523.png?src=api&amp;modified=1328704267
+      </thumbnail><caption>Mini Theme</caption></preview><preview position="4">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67524.png?src=api&amp;modified=1328704267
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67524.png?src=api&amp;modified=1328704267
+      </thumbnail><caption>No Styling Theme</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/marklogic-console-for-fireb/?src=api</learnmore><install hash="sha256:db4c796b8b5e35ffd016dc15d73816651a9a1b0f5596822fd5d265e11cb39891"
+    os="ALL"
+    size="126976">https://addons.mozilla.org/firefox/downloads/file/160337/firebug_marklogic_developer_console-1.1.11-fx.xpi?src=api</install>
+  <developer_comments>&lt;ul&gt;&lt;li&gt;Add-on requires Firebug installed. &lt;/li&gt;&lt;li&gt;Add-on is designed to work with MarkLogic server log.&lt;/li&gt;&lt;li&gt;MarkLogic can be installed either locally or remote&lt;/li&gt;&lt;li&gt;Add-on is platform independent&lt;/li&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/marklogic-console-for-fireb/reviews/?src=api
+    </reviews>
+    <total_downloads>120387</total_downloads>
+    <weekly_downloads>1937</weekly_downloads>
+    <daily_users>11418</daily_users>
+    <created epoch="1322572003">
+      2011-11-29T13:06:43Z
+    </created>
+    <last_updated epoch="1343418096">
+      2012-07-27T19:41:36Z
+    </last_updated>
+    <homepage>http://www.sirmasolutions.com/index.php/products/ml-firefox-console</homepage>
+    <support>http://sirmasolutions.com/products/ml-firefox-console</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="4925">
+  <name>AutoPager</name>
+  <type id="1">Extension</type>
+  <guid>autopager@mozilla.org</guid>
+  <slug>autopager</slug>
+  <version>0.8.0.8</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="16310">
+      <name>Wind Li</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/wind-li/?src=api</link>
+    </author>      </authors>
+  <summary>AutoPager automatically loads next pages when you reach the end of a page. It works on a ton of sites,Google,Yahoo..
+It works well with most other add-ons adblock plus, WOT and most of the greasemonkey scripts.
+You can also try AutoPagerLite.</summary>
+  <description>(Please use Lite mode if your device has less memory or low processor.)
+The AutoPager Firefox extension automatically loads the next page of a site inline when you reach the end of the current page for infinite scrolling of content. 
+It includes a adblock similar features to allow you filter out the ads from the contents in the loaded page contents.
+It works well with most of the greasemonkey scripts.
+By default AutoPager works with a ton of sites, including Lifehacker, the New York Times, Digg, and, of course, Google.  If you want to add your own custom autopaging to unsupported sites, the site wizard feature makes it easy (first pick the Next link, then pick only the content you want loaded. The site workshop provide more features like auto discovery the links and content.
+It&#39;s configuration is base on XPath. You can find there is a built in function to create a XPath by click some links on the pages. This extension will import online configuration from this sources,these configurations includes support for some widely used sites and some general support for forums. 
+You can also share your site rules by click public button in the setting dialog.
+You can find XPath tutorials at &lt;a href=&#34;http://outgoing.mozilla.org/v1/8adff66a0bd28b3fdf0dff1c7efeb97b45073a2ff44f618bb9422bac4f72d9b2/http%3A//www.w3schools.com/xpath/&#34; rel=&#34;nofollow&#34;&gt;http://www.w3schools.com/xpath/&lt;/a&gt; and &lt;a href=&#34;http://outgoing.mozilla.org/v1/db0409dcdbca997abe4002caaf64f0a58671fa2563a8f9eb806092262bc29262/http%3A//www.zvon.org/xxl/XPathTutorial/General/examples.html&#34; rel=&#34;nofollow&#34;&gt;http://www.zvon.org/xxl/XPathTutorial/General/examples.html&lt;/a&gt;. 
+You can always get the stable version here and the newer develop version at: &lt;a href=&#34;http://outgoing.mozilla.org/v1/8975dba94e31ec14ec96574c75774bcef4ef0f7aba4f494dd241444b4cc0fed4/http%3A//www.teesoft.info/content/view/68/1/&#34; rel=&#34;nofollow&#34;&gt;http://www.teesoft.info/content/view/68/1/&lt;/a&gt;
+
+You can find our tutorials at &lt;a href=&#34;http://outgoing.mozilla.org/v1/3279ab44795887d91626ce6fd0cca7f00edcd7c36d69c61d6f93d8b2ce0c4679/http%3A//www.teesoft.info/content/view/91/1/&#34; rel=&#34;nofollow&#34;&gt;http://www.teesoft.info/content/view/91/1/&lt;/a&gt;
+And some tips for creating AutoPager rules for new sites:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/6ed1866947161feb6c06d17b68d16f7ee9a5f74c59c5749e54e5fafc1d42b076/http%3A//www.teesoft.info/content/view/87/1/&#34; rel=&#34;nofollow&#34;&gt;http://www.teesoft.info/content/view/87/1/&lt;/a&gt;
+It also supports show the related searches for the page. You can turn it on with the choose the search engine you want.
+AP doesn&#39;t enable related search unless user choose a engine from : Surf Canyon Search, Google search, Bing search or wikipedia. Other search engines are being working on.</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4925-64.png?modified=1357140522</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/4/4925-32.png?modified=1357140522</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>21.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>1.0</min_version>
+      <max_version>2.3.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Mobile</name>
+      <application_id>60</application_id>
+      <min_version>4.0b1pre</min_version>
+      <max_version>19.*</max_version>
+      <appID>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</appID>
+    </application><application>
+      <name>Firefox for Android</name>
+      <application_id>61</application_id>
+      <min_version>10.0a1</min_version>
+      <max_version>21.0a1</max_version>
+      <appID>{aa3c5121-dab2-40e2-81ca-7ea25febc110}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>Linux</os><os>Darwin</os><os>Android</os><os>WINNT</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="671" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13792.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="191" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13792.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>auto loading google image search pages</caption></preview><preview position="1">
+      <full type="image/png" width="671" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13791.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="191" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13791.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>auto loading google search pages</caption></preview><preview position="1">
+      <full type="image/png" width="623" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13804.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="178" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13804.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>auto loading pages on addons.mozilla.org</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="405">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13805.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="115">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13805.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>autopager settings</caption></preview><preview position="1">
+      <full type="image/png" width="606" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13806.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="173" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13806.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>create XPath by click a link on the page</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="495">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13884.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="141">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13884.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>smart paging</caption></preview><preview position="1">
+      <full type="image/png" width="674" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/13/13887.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="192" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/13/13887.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>The XPath generator in action</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/autopager/?src=api</learnmore><install hash="sha256:1402232ba3319e5c89527ed80af1dcfeff2fe369b22958b6fe359b888f436d2e"
+    os="Linux"
+    size="347340">https://addons.mozilla.org/firefox/downloads/file/185338/autopager-0.8.0.8-fx+sm+fn-linux.xpi?src=api</install>
+  <install hash="sha256:1402232ba3319e5c89527ed80af1dcfeff2fe369b22958b6fe359b888f436d2e"
+    os="Darwin"
+    size="347340">https://addons.mozilla.org/firefox/downloads/file/185340/autopager-0.8.0.8-fx+sm+fn-mac.xpi?src=api</install>
+  <install hash="sha256:1402232ba3319e5c89527ed80af1dcfeff2fe369b22958b6fe359b888f436d2e"
+    os="WINNT"
+    size="347340">https://addons.mozilla.org/firefox/downloads/file/185342/autopager-0.8.0.8-fx+sm+fn-windows.xpi?src=api</install>
+  <install hash="sha256:07abad952e0ae63c7ca53a6dc100bb7fb68ffd86efa615dc462a8f95aee638f2"
+    os="Android"
+    size="303214">https://addons.mozilla.org/firefox/downloads/file/185344/autopager-0.8.0.8-fx+sm+fn-android.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/autopager/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="10.00">
+            $10.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/autopager/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>Recent update may failed to install due to some mozilla site issue: &lt;a href=&#34;http://outgoing.mozilla.org/v1/0f03079a3a6916b08087bc527320e63c45098179/https%3A//bugzilla.mozilla.org/show_bug.cgi%3Fid%3D544587&#34;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=544587&lt;/a&gt;
+
+(Please use &lt;a href=&#34;http://outgoing.mozilla.org/v1/24549cd04ee7aeff85ce7d55ba683f5f9b494ea5/http%3A//www.teesoft.info/content/view/105/1/&#34;&gt;AutoPagerLite&lt;/a&gt; if your device has less memory or low processor.)
+You can try
+Ctrl+ALT+3 if AutoPager doesn&#39;t automatically work on your google search. It&#39;s shortcut for Tools-&amp;gt;AutoPager-&amp;gt;Immediately Load-&amp;gt;Load 3 pages.
+
+You can always get the stable version here and the newer develop version at: &lt;a href=&#34;http://outgoing.mozilla.org/v1/395e7d5dad84c675a3df4954d2d992d5090c71ca/http%3A//www.teesoft.info/content/view/68/1/&#34;&gt;http://www.teesoft.info/content/view/68/1/&lt;/a&gt;.
+
+You can find our tutorials at &lt;a href=&#34;http://outgoing.mozilla.org/v1/bb87bc3a81bf4a1108cc597571e448c9abebc151/http%3A//www.teesoft.info/content/view/91/1/&#34;&gt;http://www.teesoft.info/content/view/91/1/&lt;/a&gt;
+And some tips for &lt;a href=&#34;http://outgoing.mozilla.org/v1/c94264570736e8405eb2b62098ff1a7da0dbc487/http%3A//www.teesoft.info/content/view/87/1/&#34;&gt;creating AutoPager rules for new sites&lt;/a&gt;:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/c94264570736e8405eb2b62098ff1a7da0dbc487/http%3A//www.teesoft.info/content/view/87/1/&#34;&gt;http://www.teesoft.info/content/view/87/1/&lt;/a&gt;
+
+Here you will find some tuning tips:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/a644768d59e69d33abde65d8ba6b074f6df875d6/http%3A//www.teesoft.info/content/view/74/35/&#34;&gt;http://www.teesoft.info/content/view/74/35/&lt;/a&gt;
+Please report bugs to &lt;a href=&#34;http://outgoing.mozilla.org/v1/07399b14e0749a9f59e6468dba08775ae8001efb/http%3A//www.teesoft.info/component/option%2Ccom_wrapper/Itemid%2C48/.&#34;&gt;http://www.teesoft.info/component/option,com_wrapper/Itemid,48/.&lt;/a&gt;
+AutoPager in your language: you can help to translate AutoPager to your language at:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/ff7d85127378c8608765e88a17581f95d88815b8/http%3A//www.babelzilla.org/index.php%3Foption%3Dcom_wts%26Itemid%3D88%26extension%3D4820%26type%3Dlang&#34;&gt;http://www.babelzilla.org/index.php?option=com_wts&amp;amp;Itemid=88&amp;amp;extension=4820&amp;amp;type=lang&lt;/a&gt;
+
+Please turn of &#34;Give the search box focus&#34; in CustomizeGoogle Options if you have CustomizeGoogle installed, which will cause the focus lost issues in AutoPager.
+AutoPager load next page in a hidden frame. If the page set focus in the load event or if you have any addons which set focus on page load then the focus may be set to the hidden frame autopager used to load the next pages.
+
+Dec 18,2009:
+google.com changed their page layout to anti AutoPager again.\r\nWe had updated the rules to address it. Please use Tools-&amp;gt;AutoPager-&amp;gt;Update Setting Online to get it.\r\nYou can always try search from the search box in FireFox.
+
+Trouble shooting when it stops working.
+First of all you need to understand, AutoPager will not work on all pages. It only works on whether there is a suitable rule for it. The rule may out of date if the pages change their layout.
+You can try there steps when this happen:
+1. Upgrade to the last version at : &lt;a href=&#34;http://outgoing.mozilla.org/v1/8fea50b76092c3097a5d35b49acfe85ee394158f/https%3A//addons.mozilla.org/en-US/firefox/addons/versions/4925&#34;&gt;https://addons.mozilla.org/en-US/firefox/addons/versions/4925&lt;/a&gt;  or &lt;a href=&#34;http://outgoing.mozilla.org/v1/6395623625da9dc1ea9b8ba3175fd421b8b98491/https%3A//secure.teesoft.info/autopager/autopager-last.xpi.&#34;&gt;https://secure.teesoft.info/autopager/autopager-last.xpi.&lt;/a&gt;
+2. Use Tools-&amp;gt;AutoPager-&amp;gt;Fix Issues-&amp;gt;Trouble shooting. This will check your configuration and update the rules online and will lead you to our forum to submit a ticket if it still not work.</developer_comments>
+    <reviews num="345">
+      https://addons.mozilla.org/en-US/firefox/addon/autopager/reviews/?src=api
+    </reviews>
+    <total_downloads>9015669</total_downloads>
+    <weekly_downloads>6380</weekly_downloads>
+    <daily_users>152430</daily_users>
+    <created epoch="1178379345">
+      2007-05-05T15:35:45Z
+    </created>
+    <last_updated epoch="1357304282">
+      2013-01-04T12:58:02Z
+    </last_updated>
+    <homepage>http://www.teesoft.info/</homepage>
+    <support>http://www.teesoft.info/phpbb/viewforum.php?f=3</support>
+    <featured>0</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="476.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="560.89"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="633.95"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="585.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="535.05"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="729.89"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="620.63"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="532.53"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="703.68"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="728.84"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="634.42"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="558.84"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="479.84"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="654.32"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="371508">
+  <name>SiteCheckr</name>
+  <type id="1">Extension</type>
+  <guid>sitecheckr@sebastianstoehr.de</guid>
+  <slug>sitecheckr</slug>
+  <version>1.2.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="6138787">
+      <name>Sebastian Stöhr</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/sdstoehr/?src=api</link>
+    </author>      </authors>
+  <summary>Analyzes your websites with your custom ruleset.</summary>
+  <description>Check your website with your custom ruleset.
+
+You can specify rules either as XPath or CSS Selector:
+&lt;ul&gt;&lt;li&gt;    &lt;strong&gt;XPath:&lt;/strong&gt; &lt;code&gt;//img[not(@alt)]&lt;/code&gt;&lt;/li&gt;&lt;li&gt;    &lt;strong&gt;CSS Selector:&lt;/strong&gt; &lt;code&gt;img:not([alt])&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;
+Rules can be imported, exported and shared as XML files.</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/371/371508-64.png?modified=1361992684</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/371/371508-32.png?modified=1361992684</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>19.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="430" height="278">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/74/74443.png?src=api&amp;modified=1343002915
+      </full>
+      <thumbnail type="" width="200" height="129">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/74/74443.png?src=api&amp;modified=1343002915
+      </thumbnail><caption>Example: Results for google.de</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/sitecheckr/?src=api</learnmore><install hash="sha256:c16608a0078f9cb2f3b68c85f38e06c33707cc806f06231f6ce973c86781682a"
+    os="ALL"
+    size="283402">https://addons.mozilla.org/firefox/downloads/file/201114/sitecheckr-1.2.2-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/sitecheckr/reviews/?src=api
+    </reviews>
+    <total_downloads>1281</total_downloads>
+    <weekly_downloads>23</weekly_downloads>
+    <daily_users>152</daily_users>
+    <created epoch="1334332217">
+      2012-04-13T15:50:17Z
+    </created>
+    <last_updated epoch="1364934427">
+      2013-04-02T20:27:07Z
+    </last_updated>
+    <homepage>http://www.sitecheckr.org/</homepage>
+    <support>http://www.sitecheckr.org/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="7434">
+  <name>Developer Assistant</name>
+  <type id="1">Extension</type>
+  <guid>{75739dec-72db-4020-aa9a-6afa6744759b}</guid>
+  <slug>extension-developer</slug>
+  <version>0.3.0.20110927</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="58">
+      <name>Ted Mielczarek</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/ted-mielczarek/?src=api</link>
+    </author><author id="150216">
+      <name>Gavin Sharp</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/gavinsharp/?src=api</link>
+    </author><author id="120243">
+      <name>Brett Zamir</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/brettz9/?src=api</link>
+    </author>      </authors>
+  <summary>A suite of tools for developers.</summary>
+  <description>A suite of tools for extension developers, including an interactive JavaScript shell, HTML and XUL editors with live preview, regular expression and XPath testers, and a tool for packaging extensions.</description><license>
+    <name>GNU General Public License, version 2.0</name>
+    <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/7/7434-64.png?modified=1317935823</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/7/7434-32.png?modified=1317935823</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.0</min_version>
+      <max_version>22.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>3.0</min_version>
+      <max_version>24.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="506" height="424">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/21/21245.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="179" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/21/21245.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>JavaScript Shell</caption></preview><preview position="1">
+      <full type="image/png" width="508" height="429">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/21/21246.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="177" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/21/21246.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Live XUL Editor</caption></preview><preview position="1">
+      <full type="image/png" width="440" height="335">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/21/21247.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="197" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/21/21247.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Extension Builder</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/extension-developer/?src=api</learnmore><install hash="sha256:a615b3ba5364071fbae48419734ddd157e276e56f41fbc41af27d2bd6c79ff4f"
+    os="ALL"
+    size="90112">https://addons.mozilla.org/firefox/downloads/file/133135/developer_assistant-0.3.0.20110927-sb+fx+tb.xpi?src=api</install>
+  <developer_comments>Note that this add-on was called Extension Developer but has at least for the time being been changed to Developer Assistant to indicate that the Extension Building aspect of the application is not being actively maintained.</developer_comments>
+    <reviews num="45">
+      https://addons.mozilla.org/en-US/firefox/addon/extension-developer/reviews/?src=api
+    </reviews>
+    <total_downloads>201968</total_downloads>
+    <weekly_downloads>248</weekly_downloads>
+    <daily_users>4553</daily_users>
+    <created epoch="1212110641">
+      2008-05-30T01:24:01Z
+    </created>
+    <last_updated epoch="1317935799">
+      2011-10-06T21:16:39Z
+    </last_updated>
+    <homepage>http://code.google.com/p/extensiondev/</homepage>
+    <support>http://ted.mielczarek.org/code/mozilla/extensiondev/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="13587">
+  <name>AlertBox</name>
+  <type id="1">Extension</type>
+  <guid>alertbox@ajitk.com</guid>
+  <slug>alertbox</slug>
+  <version>0.4.9.20130722</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1817314">
+      <name>Ajit K</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/Ajit%20K/?src=api</link>
+    </author>      </authors>
+  <summary>Track changes in web pages. Get alerts for important changes.</summary>
+  <description>Monitor and keep track of webpages using your Firefox. Keep track of changes in text or image. Leave the repetitious activity of checking updates on your favorite websites to AlertBox. 
+
+To add an alert for a page, open the Alert Config panel:
+1. Click the bell shaped icon in status bar
+2. Select and add the content on the page that you want to monitor for change.
+3. Click `Add Alert` to register this alert.
+
+Alternatively, right click on a webpage and select an option in &#34;Add Alerts...&#34; menu.
+
+You can add multiple alerts for the same page by repeating the same process multiple times. If the locator expression matches multiple elements, you can listen to all of them by selecting `Matches: Multiple nodes` option.
+
+To view your alerts, go to your alert box located at chrome://alertbox/content/inbox. You can access the page quickly by clicking the status text showing the number of alerts.
+
+Features:
+- Add alerts for a targeted content in a any web page or RSS
+- Checks for updates silently in the background
+- Add rules to get alert for important changes
+- Powerful expressions to select target content. Supports XPath expression, CSS rule or JavaScript expression to select target content
+- View and manage all alerts from Inbox.
+- Audio, popup and e-mail alerts
+- View the history as a timeline of changes
+
+Share your experience and how you use it with us and other users at community and support forum: &lt;a href=&#34;http://outgoing.mozilla.org/v1/89e3546130d951bc65d71ebd0c0d50d150c03e20/http%3A//pulsvu.com/forum&#34;&gt;http://pulsvu.com/forum&lt;/a&gt;</description><license>
+    <name>MIT/X11 License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13587-64.png?modified=1384995837</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/13/13587-32.png?modified=1384995837</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="239">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/35/35591.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="68">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/35/35591.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>AlertBox to view and manage your alerts and notifications</caption></preview><preview position="1">
+      <full type="image/png" width="468" height="340">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/35/35593.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="145">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/35/35593.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Content selection using Alert Config Panel</caption></preview><preview position="1">
+      <full type="image/png" width="649" height="248">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36838.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="76">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36838.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Never miss a deal again. Let AlertBox catch it for you.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/alertbox/?src=api</learnmore><install hash="sha256:77756cf1d29cf104c5ed13ef2d2a293f36aedb81548ef85e30644ebf5247c70a"
+    os="ALL"
+    size="179085">https://addons.mozilla.org/firefox/downloads/file/222532/alertbox-0.4.9.20130722-fx.xpi?src=api</install>
+  <developer_comments>The email service is now online and working.
+
+Email alerts require you to create and register an account: &lt;a href=&#34;http://outgoing.mozilla.org/v1/ede6a88211092537501b268d2b023486ad863f47/http%3A//pulsvu.com/user/register&#34; rel=&#34;nofollow&#34;&gt;http://pulsvu.com/user/register&lt;/a&gt; . This ensures protection against uncalled for spam and responsible service utilization.
+
+NOTE: If facing a problem, either post the details at the support forum or send me an email.</developer_comments>
+    <reviews num="84">
+      https://addons.mozilla.org/en-US/firefox/addon/alertbox/reviews/?src=api
+    </reviews>
+    <total_downloads>79397</total_downloads>
+    <weekly_downloads>551</weekly_downloads>
+    <daily_users>9372</daily_users>
+    <created epoch="1249896045">
+      2009-08-10T09:20:45Z
+    </created>
+    <last_updated epoch="1374489638">
+      2013-07-22T10:40:38Z
+    </last_updated>
+    <homepage>http://pulsvu.com/forum/7</homepage>
+    <support>http://pulsvu.com/forum/7</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+    </searchresults>

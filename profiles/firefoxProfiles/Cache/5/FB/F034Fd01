@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="303">
+          <addon id="10273">
+  <name>CodeBurner for Firebug</name>
+  <type id="1">Extension</type>
+  <guid>firebug@tools.sitepoint.com</guid>
+  <slug>codeburner-for-firebug</slug>
+  <version>1.6</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="3118836">
+      <name>SitePoint</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/sitepoint/?src=api</link>
+    </author>      </authors>
+  <summary>CodeBurner is a Firefox add-on that integrates with Firebug, to extend it with reference material for HTML and CSS.</summary>
+  <description>CodeBurner is a Firefox add-on that integrates with Firebug, to extend it with reference material for HTML and CSS.
+
+The extension&#39;s core functionality is centered around a new Reference panel, which contains a search tool for looking up HTML elements, attributes, and CSS properties.
+
+The extension also hooks into context-menus in the HTML and CSS panels, the DOM crumbtrail, and the Inspector, adding options to look up a selected item (ie. search for it in the Reference panel) or to view a code example.
+</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/codeburner-for-firebug/license/1.6</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/10/10273-64.png?modified=1302056075</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/10/10273-32.png?modified=1302056075</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="645" height="426">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/28/28600.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="132">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/28/28600.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Search results have information about browser compatibility, standards-compliance, and a brief summary of useage</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="278">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/28/28601.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="79">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/28/28601.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Live search for HTML elements, HTML attributes, or CSS properties (or any combination)</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="289">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/28/28602.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="82">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/28/28602.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Code examples open in the side-panel of the Reference, HTML or CSS panels, and are practical examples with summaries</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/codeburner-for-firebug/?src=api</learnmore><install hash="sha256:fa9aefe41c30bcf578bffc2d26f685d053285c3e34c56a1b58b108ae8b598f74"
+    os="ALL"
+    size="870400">https://addons.mozilla.org/firefox/downloads/file/110075/codeburner_for_firebug-1.6-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="32">
+      https://addons.mozilla.org/en-US/firefox/addon/codeburner-for-firebug/reviews/?src=api
+    </reviews>
+    <total_downloads>1206436</total_downloads>
+    <weekly_downloads>3682</weekly_downloads>
+    <daily_users>62549</daily_users>
+    <created epoch="1231217096">
+      2009-01-06T04:44:56Z
+    </created>
+    <last_updated epoch="1296567820">
+      2011-02-01T13:43:40Z
+    </last_updated>
+    <homepage>http://tools.sitepoint.com/codeburner</homepage>
+    <support>http://tools.sitepoint.com/codeburner</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="8370">
+  <name>Drupal For Firebug</name>
+  <type id="1">Extension</type>
+  <guid>DrupalForFirebug@drupal.org</guid>
+  <slug>drupal-for-firebug</slug>
+  <version>2.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1018815">
+      <name>populist</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/populist/?src=api</link>
+    </author><author id="6121250">
+      <name>frob</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/frob/?src=api</link>
+    </author>      </authors>
+  <summary>Drupal for Firebug extends the Firebug module to provide Drupal specific debugging and status messages. The 2.0 version doesn&#39;t work, until 2.1 is approved by mozilla, we recommend Downloading straight from the Project&#39;s Repository page.</summary>
+  <description>Drupal for Firebug extends the Firebug module to provide Drupal specific debugging and status messages. It allows users to see the processing of the node, form, and user objects and works with the Devel module to display SQL queries and execute PHP from the Firebug window. It incorporates jQuery 1.26 for added UI improvements.
+
+You must download the DrupalForFirebug Drupal module to use this extension: &lt;a href=&#34;http://outgoing.mozilla.org/v1/d37453b75b6747448be9318ad2fc04af660e55cbdab87f8034abb2de6bd42b89/http%3A//drupal.org/project/drupalforfirebug&#34; rel=&#34;nofollow&#34;&gt;http://drupal.org/project/drupalforfirebug&lt;/a&gt;
+
+To have the most up-to-date version of the addon possible, please download the alpha* from the Developer Channel at the bottom of this page. Or you can goto the project page over at bitbucket &lt;a href=&#34;http://outgoing.mozilla.org/v1/65cb2c0c767eb470213bcc8c0c00b18c9d21beff295377cfd6167c3de18a4804/https%3A//bitbucket.org/frob/drupalforfirebug/downloads&#34; rel=&#34;nofollow&#34;&gt;https://bitbucket.org/frob/drupalforfirebug/downloads&lt;/a&gt; and download the latest release.
+
+* The alpha version is just the same version that was submitted to mozilla. Mozilla must manually review every plugin before they will allow the release.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>14.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="608" height="203">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/25/25975.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="66">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/25/25975.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>The Drupal for Firebug main console window</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/drupal-for-firebug/?src=api</learnmore><install hash="sha256:9ad8fcf676effaf3af0cf5aef12bde59842b62a4511fc39b2730bd666e94813f"
+    os="ALL"
+    size="13169">https://addons.mozilla.org/firefox/downloads/file/183682/drupal_for_firebug-2.2-fx.xpi?src=api</install>
+  <install hash="sha256:d721006bc9fd35e6ffd119806826bd144aadf912412ebd6df9379a4f895c5982" os=""
+             size="13170"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/183680/drupal_for_firebug-2.2a-fx.xpi?src=api
+    </install>
+    <developer_comments>Version 0.0.8 and below has an incompatibility with the latest firebug.</developer_comments>
+    <reviews num="18">
+      https://addons.mozilla.org/en-US/firefox/addon/drupal-for-firebug/reviews/?src=api
+    </reviews>
+    <total_downloads>517614</total_downloads>
+    <weekly_downloads>711</weekly_downloads>
+    <daily_users>17857</daily_users>
+    <created epoch="1217815808">
+      2008-08-04T02:10:08Z
+    </created>
+    <last_updated epoch="1357347391">
+      2013-01-05T00:56:31Z
+    </last_updated>
+    <homepage>http://drupal.org/project/drupalforfirebug</homepage>
+    <support>http://drupal.org/project/drupalforfirebug</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="203494">
+  <name>Firebug Autocompleter</name>
+  <type id="1">Extension</type>
+  <guid>{9aad3da6-6c46-4ef0-9109-6df5eaaf597c}</guid>
+  <slug>firebug-autocompleter</slug>
+  <version>1.4.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1548926">
+      <name>yamapikarya</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/yamapikarya/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug command line autocomplete.</summary>
+  <description></description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/203/203494-64.png?modified=1331671013</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/203/203494-32.png?modified=1331671013</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.6</min_version>
+      <max_version>18.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="351" height="327">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47577.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="161" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47577.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="442" height="339">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47578.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="195" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47578.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="2">
+      <full type="image/png" width="341" height="249">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47579.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="200" height="146">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47579.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="3">
+      <full type="image/png" width="432" height="501">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/47/47580.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="129" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/47/47580.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="4">
+      <full type="image/png" width="430" height="498">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48430.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="129" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48430.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="5">
+      <full type="image/png" width="429" height="494">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/48/48431.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="130" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/48/48431.png?src=api&amp;modified=1331644035
+      </thumbnail></preview><preview position="6">
+      <full type="image/png" width="322" height="500">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/51/51657.png?src=api&amp;modified=1331644035
+      </full>
+      <thumbnail type="image/png" width="96" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/51/51657.png?src=api&amp;modified=1331644035
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firebug-autocompleter/?src=api</learnmore><install hash="sha256:370f4de83a3e82c40c272e0c43b324110220b630676e0fad3a40afaf57ee06f1"
+    os="ALL"
+    size="338733">https://addons.mozilla.org/firefox/downloads/file/178580/firebug_autocompleter-1.4.1-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="25">
+      https://addons.mozilla.org/en-US/firefox/addon/firebug-autocompleter/reviews/?src=api
+    </reviews>
+    <total_downloads>414729</total_downloads>
+    <weekly_downloads>2426</weekly_downloads>
+    <daily_users>32232</daily_users>
+    <created epoch="1279900007">
+      2010-07-23T15:46:47Z
+    </created>
+    <last_updated epoch="1353480782">
+      2012-11-21T06:53:02Z
+    </last_updated>
+    <homepage></homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="11905">
+  <name>Firefinder for Firebug</name>
+  <type id="1">Extension</type>
+  <guid>firefinder@robertnyman.com</guid>
+  <slug>firefinder-for-firebug</slug>
+  <version>1.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1405832">
+      <name>Robert Nyman</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/robert-nyman/?src=api</link>
+    </author>      </authors>
+  <summary>Finds HTML elements matching chosen CSS selector(s) or XPath expression</summary>
+  <description>Firefinder is an add-on to Firebug, to help find HTML elements matching chosen CSS selector(s) or XPath expression. You can also auto-select elements when hovering or via the context menu.
+
+View the results and then share them with a friend via the FriendlyFire feature, or click Inspect to go to the corresponding element in Firebug&#39;s HTML tab.</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11905-64.png?modified=1364408425</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11905-32.png?modified=1364408425</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="700" height="229">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36551.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="65">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36551.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>A picture of Firefinder when a filtering for DIV elements has been performed</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="229">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36552.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="65">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36552.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>A picture of Firefinder when the FriendlyFire feature has just been invoked</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="88">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/36/36575.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="25">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/36/36575.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>A picture of the FriendlyFire workflow</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/?src=api</learnmore><install hash="sha256:23db58d324acfc2ff6b49316bb09a9eead90908c1d8c6312cc51b3103c577f9e"
+    os="ALL"
+    size="30370">https://addons.mozilla.org/firefox/downloads/file/200250/firefinder_for_firebug-1.4-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="1.00">
+            $1.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="24">
+      https://addons.mozilla.org/en-US/firefox/addon/firefinder-for-firebug/reviews/?src=api
+    </reviews>
+    <total_downloads>637039</total_downloads>
+    <weekly_downloads>1928</weekly_downloads>
+    <daily_users>33300</daily_users>
+    <created epoch="1242090317">
+      2009-05-12T01:05:17Z
+    </created>
+    <last_updated epoch="1364405537">
+      2013-03-27T17:32:17Z
+    </last_updated>
+    <homepage>http://robertnyman.com/firefinder/</homepage>
+    <support>http://groups.google.com/group/firefinder</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="9620">
+  <name>Firebug Paint Events</name>
+  <type id="1">Extension</type>
+  <guid>firebugpaintevents@kylescholz.com</guid>
+  <slug>firebug-paint-events</slug>
+  <version>0.1.8</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="3293893">
+      <name>kylescholz</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/kylescholz/?src=api</link>
+    </author><author id="5392708">
+      <name>davideme</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/davideme/?src=api</link>
+    </author>      </authors>
+  <summary>View details of MozAfterPaint events, using Firebug.
+Setting the preference dom.send_after_paint_to_content to true is required in order to capture the MozAfterPaint events.</summary>
+  <description>View details of MozAfterPaint events, using Firebug.</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.1b1</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="618" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/28/28443.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="176" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/28/28443.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firebug-paint-events/?src=api</learnmore><install hash="sha256:6dc7ae1dfd596d6404f884f28f7cef3ffec1419a4f1663f291c9b9dad1bbe64d"
+    os="ALL"
+    size="5120">https://addons.mozilla.org/firefox/downloads/file/141510/firebug_paint_events-0.1.8-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="4">
+      https://addons.mozilla.org/en-US/firefox/addon/firebug-paint-events/reviews/?src=api
+    </reviews>
+    <total_downloads>93484</total_downloads>
+    <weekly_downloads>402</weekly_downloads>
+    <daily_users>4973</daily_users>
+    <created epoch="1226871583">
+      2008-11-16T21:39:43Z
+    </created>
+    <last_updated epoch="1326558049">
+      2012-01-14T16:20:49Z
+    </last_updated>
+    <homepage>http://www.kylescholz.com/</homepage>
+    <support></support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="9641">
+  <name>Inline Code Finder for Firebug</name>
+  <type id="1">Extension</type>
+  <guid>icffirebug@robertnyman.com</guid>
+  <slug>inline-code-finder-for-firebug</slug>
+  <version>1.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1405832">
+      <name>Robert Nyman</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/robert-nyman/?src=api</link>
+    </author>      </authors>
+  <summary>Inline Code Finder is an add-on to Firebug, to be able to find HTML elements with any of the below issues:
+
+    * Inline JavaScript events
+    * Inline style
+    * javascript: links
+
+Detailed description can be found at &lt;a href=&#34;http://outgoing.mozilla.org/v1/19a63839b29ed7648939f973a3fc75e345733ab9/http%3A//www.robertnyman.com/inline-code-finder/&#34;&gt;http://www.robertnyman.com/inline-code-finder/&lt;/a&gt;</summary>
+  <description>Finds HTML elements with inline JavaScript events, inline styling and javascript: links</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/9/9641-64.png?modified=1315192854</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/9/9641-32.png?modified=1315192854</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>20.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="image/png" width="556" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/27/27885.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="158" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/27/27885.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/inline-code-finder-for-firebug/?src=api</learnmore><install hash="sha256:90263c279c468a09bce9f1ab0db423a1a1f8ca40091883de2d3748329b5445d6"
+    os="ALL"
+    size="10240">https://addons.mozilla.org/firefox/downloads/file/130877/inline_code_finder_for_firebug-1.1-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="14">
+      https://addons.mozilla.org/en-US/firefox/addon/inline-code-finder-for-firebug/reviews/?src=api
+    </reviews>
+    <total_downloads>434668</total_downloads>
+    <weekly_downloads>824</weekly_downloads>
+    <daily_users>15885</daily_users>
+    <created epoch="1226965674">
+      2008-11-17T23:47:54Z
+    </created>
+    <last_updated epoch="1315192631">
+      2011-09-05T03:17:11Z
+    </last_updated>
+    <homepage>http://robertnyman.com/inline-code-finder</homepage>
+    <support>http://robertnyman.com/inline-code-finder</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="247486">
+  <name>Illuminations for Developers for Firebug</name>
+  <type id="1">Extension</type>
+  <guid>sroussey@illumination-for-developers.com</guid>
+  <slug>illuminations-for-developers</slug>
+  <version>1.1.26</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="1145675">
+      <name>Steven Roussey</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/sroussey/?src=api</link>
+    </author>      </authors>
+  <summary>Enhances Firebug to understand JavaScript libraries and frameworks, making things more obvious and helpful when debugging. Trial version, fully functional.</summary>
+  <description>Illumination for Developers offers great features for lower level libraries like Ext Core and jQuery, but really shines for its support of abstract design patterns found in the likes of  ExtJS, SproutCore, qooXdoo, Dojo Toolkit, EmberJS, and Backbone.
+
+This trial version gets unlocked when purchasing from the home page, accessible from a buy button found inside the extensions Firebug panel.
+
+&lt;b&gt;Object Naming&lt;/b&gt;
+
+Illuminations presents the framework objects in a smarter way. It recognizes what they are and shows the whole name, like &#34;Ext.DataView&#34; instead of &#34;Object&#34; in the console and the other Firebug panels. And instead of random properties being appended, it looks for a ID-ish and a Value-ish property to show. This gives you an idea what you are looking at when you are debugging. See the example without and with Illumination in the screenshots above.
+
+&lt;b&gt;Element Highlighting&lt;/b&gt;
+
+Now, when you hover the mouse over the Ext.DataView above, it will highlight the component on the page. In the case above, the coder didn&#39;t give a descriptive itemId or name, so hovering over it does the trick -- it shows you exactly what that object is all about. This works for Ext Components and for Ext Elements. It even works for Ext Composite Elements -- it highlights all of its nodes on the page!
+
+&lt;b&gt;Contextual Menu&lt;/b&gt;
+
+When you right click on an element in Firefox, Firebug adds an &#34;Inspect Element&#34; menu item to open Firebug and bring you to that element in the HTML panel. Illumination does the same sort of thing, but tries to find the best match: ideally some sort of UI widget, else an Ext Element.
+
+&lt;b&gt;Illumination Panel&lt;/b&gt;
+
+There is a new panel added to Firebug called Illuminations, and when you use the contextual menu above, this is where it brings you. The Illumination panel is the place to inspect ExtJS objects: Widgets (usually derived from Ext.Component, but not always), Data (Ext stores, records, fields), and Elements (Ext.Element and its brethren). These views show the hierarchical structure of your code:
+
+It really takes some playing around with all of the above to get a feel of how useful and fun debugging can be again.Try this example page and look at the DataView, and generally browse around. You can click on a data store and look at the records in the Records side panel! 
+
+Other side panels include Properties (sorted by the object that defined the property) and Methods. See what Events are connected. There is even a Docs side panel that will bring up documentation for the widget you are looking at! And the full array of DOM related side panels showing you where in the DOM the component is at, that DOM element&#39;s CSS, etc.
+
+And whatever you click on can be found in the $0 variable in the console -- which is awesome if all the references to that object are hidden in JavaScript closures!</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/illuminations-for-developers/license/1.1.26</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/247/247486-64.png?modified=1350758650</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/247/247486-32.png?modified=1350758650</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>13.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="661" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/50/50494.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="188" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/50/50494.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Right click on an element in the page and quickly find out what component it belongs to!</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="496">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/50/50493.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="141">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/50/50493.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Showing easy access to Store information from a ajax request.</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="471">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52461.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="134">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52461.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>See documentation for the currently selected component.</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="292">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52500.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="83">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52500.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Method side panel, while looking at Google Closure Library (experimental). Note that the strike-outs mean that those methods where overwritten by a subclass, but you can still get access to the function here.</caption></preview><preview position="1">
+      <full type="image/png" width="700" height="280">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52501.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="80">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52501.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Debugger&#39;s stack panel with method name injection (experimental). Don&#39;t just see things like dispatchEvent, instead see goog.events.dispatchEvent. Better yet, right click the function and choose to load up that function&#39;s documentation!</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/illuminations-for-developers/?src=api</learnmore><install hash="sha256:1b3e60eaee4f5448947e9a92f141c7e1bdf8e1a8403c4ea3e9e1bdbf26d73077"
+    os="ALL"
+    size="276275">https://addons.mozilla.org/firefox/downloads/file/221174/illuminations_for_developers_for_firebug-1.1.26-fx.xpi?src=api</install>
+  <install hash="sha256:f7dc2443bc29b8e12e6965a4b80450755494b1fbcf35a37f3cc945ac24056444" os=""
+             size="285706"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/222766/illuminations_for_developers_for_firebug-1.1.27beta1-fx.xpi?src=api
+    </install>
+    <developer_comments></developer_comments>
+    <reviews num="5">
+      https://addons.mozilla.org/en-US/firefox/addon/illuminations-for-developers/reviews/?src=api
+    </reviews>
+    <total_downloads>598315</total_downloads>
+    <weekly_downloads>1807</weekly_downloads>
+    <daily_users>45424</daily_users>
+    <created epoch="1288259326">
+      2010-10-28T09:48:46Z
+    </created>
+    <last_updated epoch="1375476441">
+      2013-08-02T20:47:21Z
+    </last_updated>
+    <homepage>http://www.illuminations-for-developers.com/</homepage>
+    <support>http://www.illuminations-for-developers.com/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="352155">
+  <name>Firebug MarkLogic Developer Console</name>
+  <type id="1">Extension</type>
+  <guid>fireml@sirma.bg</guid>
+  <slug>marklogic-console-for-fireb</slug>
+  <version>1.1.11</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5990521">
+      <name>ConsoleML by Sirma</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/consoleML/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug MarkLogic Developer Console 
+Real-time Log Viewer and Event Analyzer for MarkLogic XML/XPATH Database Developers</summary>
+  <description>You do not have to go up and down in long MarkLogic log file with ConsoleML you see just logging information of your actions.
+
+&lt;b&gt;Plugin is platform independent and works for Windows, Mac &amp;amp; Linux.&lt;/b&gt;
+
+&lt;ul&gt;&lt;li&gt;ConsoleML is an extension to Firebug which displays MarkLogic logging information in Firefox Firebug.&lt;/li&gt;&lt;li&gt;ConsoleML enables you to debug your application&#39;s server-side MarkLogic code from within your browser.&lt;/li&gt;&lt;li&gt;ConsoleML works with a build-in MarkLogic logging module. It does not affect page layout and works well with AJAX Remoting requests.&lt;/li&gt;&lt;li&gt;ConsoleML reads the MarkLogic Log file and sends logging events to client-side using a Firefox browser extension.&lt;/li&gt;&lt;li&gt;ConsoleML gives you an opportunity to save a part of the log files.&lt;/li&gt;&lt;li&gt;ConsoleML displays local and remote logs.&lt;/li&gt;&lt;li&gt;ConsoleML saves Authentication passwords secure.&lt;/li&gt;&lt;li&gt;ConsoleML currently shows debugging information for all MarkLogic log levels: &lt;blockquote&gt;Finest, Finer, Fine, Debug, Config, Info Notice, Warning, Error, Critical, Alert, Emergency&lt;/blockquote&gt;&lt;/li&gt;&lt;li&gt;ConsoleML offers numerous configuration options for log levels and filters to limit the displayed log to a desired set of options.&lt;/li&gt;&lt;li&gt;ConsoleML have build-in search within visible log - next match, previous match, highlight all matches.&lt;/li&gt;&lt;li&gt;ConsoleML auto-popup the plugin when an user defined certain log level as important. The developer can now debug his application and be sure that the ConsoleML will popup only when his attention is required.&lt;/li&gt;&lt;li&gt;ConsoleML have button view entire log.&lt;/li&gt;&lt;li&gt;ConsoleML supports different UI themes.&lt;/li&gt;&lt;li&gt;ConsoleML with a short-key F9 - open/close &lt;/li&gt;&lt;/ul&gt;
+&lt;b&gt;Note: ConsoleML log limitations&lt;/b&gt;
+&lt;blockquote&gt;If log file is too big might takes long to display it. Limitations are based on your hardware. To prevent this limitation ConsoleML displays only last MB of the log file nevertheless some computers will not manage to display 1MB.&lt;/blockquote&gt;
+&lt;b&gt;ConsoleML links:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Check Wiki for installation instructions - &lt;a href=&#34;http://outgoing.mozilla.org/v1/a957fc689cc5354a9509d25d9d3aa2891ac1df2a/http%3A//code.google.com/p/console-ml/wiki/HowToInstall&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/console-ml/wiki/HowToInstall&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Check Wiki for log setup instructions - &lt;a href=&#34;http://outgoing.mozilla.org/v1/fc078c54772cd59dbc7563d56c1dcd1fff54770a/http%3A//code.google.com/p/console-ml/wiki/LogSetup&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/console-ml/wiki/LogSetup&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Follow us on Twitter - &lt;a href=&#34;http://outgoing.mozilla.org/v1/59754615c4a5734da0e6bf2034ce866fa4db66d7/http%3A//twitter.com/ConsoleML&#34; rel=&#34;nofollow&#34;&gt;http://twitter.com/ConsoleML&lt;/a&gt; &lt;/li&gt;&lt;li&gt;Official website - &lt;a href=&#34;http://outgoing.mozilla.org/v1/40377689014545546b66ef368517eed328fae032/http%3A//www.sirmasolutions.com/index.php/products/ml-firefox-console&#34; rel=&#34;nofollow&#34;&gt;http://www.sirmasolutions.com/index.php/products/ml-firefox-console&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/352/352155-64.png?modified=1343418122</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/352/352155-32.png?modified=1343418122</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>16.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67520.png?src=api&amp;modified=1328704267
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67520.png?src=api&amp;modified=1328704267
+      </thumbnail><caption>Ridget Theme</caption></preview><preview position="1">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67521.png?src=api&amp;modified=1328704244
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67521.png?src=api&amp;modified=1328704244
+      </thumbnail><caption>Default Theme</caption></preview><preview position="2">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67522.png?src=api&amp;modified=1328704244
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67522.png?src=api&amp;modified=1328704244
+      </thumbnail><caption>Flat Theme</caption></preview><preview position="3">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67523.png?src=api&amp;modified=1328704267
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67523.png?src=api&amp;modified=1328704267
+      </thumbnail><caption>Mini Theme</caption></preview><preview position="4">
+      <full type="" width="700" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/67/67524.png?src=api&amp;modified=1328704267
+      </full>
+      <thumbnail type="" width="200" height="84">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/67/67524.png?src=api&amp;modified=1328704267
+      </thumbnail><caption>No Styling Theme</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/marklogic-console-for-fireb/?src=api</learnmore><install hash="sha256:db4c796b8b5e35ffd016dc15d73816651a9a1b0f5596822fd5d265e11cb39891"
+    os="ALL"
+    size="126976">https://addons.mozilla.org/firefox/downloads/file/160337/firebug_marklogic_developer_console-1.1.11-fx.xpi?src=api</install>
+  <developer_comments>&lt;ul&gt;&lt;li&gt;Add-on requires Firebug installed. &lt;/li&gt;&lt;li&gt;Add-on is designed to work with MarkLogic server log.&lt;/li&gt;&lt;li&gt;MarkLogic can be installed either locally or remote&lt;/li&gt;&lt;li&gt;Add-on is platform independent&lt;/li&gt;&lt;/ul&gt;</developer_comments>
+    <reviews num="1">
+      https://addons.mozilla.org/en-US/firefox/addon/marklogic-console-for-fireb/reviews/?src=api
+    </reviews>
+    <total_downloads>120387</total_downloads>
+    <weekly_downloads>1937</weekly_downloads>
+    <daily_users>11418</daily_users>
+    <created epoch="1322572003">
+      2011-11-29T13:06:43Z
+    </created>
+    <last_updated epoch="1343418096">
+      2012-07-27T19:41:36Z
+    </last_updated>
+    <homepage>http://www.sirmasolutions.com/index.php/products/ml-firefox-console</homepage>
+    <support>http://sirmasolutions.com/products/ml-firefox-console</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="323592">
+  <name>Dojo Firebug Extension</name>
+  <type id="1">Extension</type>
+  <guid>dojo@silvergate.ar.ibm.com</guid>
+  <slug>dojofirebugextension</slug>
+  <version>1.1.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5604271">
+      <name>Patricio Reyna Almandos</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/patricioreyna/?src=api</link>
+    </author><author id="5792223">
+      <name>Fernando Gómez</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/fernandogomezalonso/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug extension to help dojo developers.
+Easy access to Dojo features: get a tree view of the dijit registry, inspect visual widgets, view and breakpoint connections and subscriptions.
+
+Note: This addon does not work with dojo 1.8+ yet</summary>
+  <description>&lt;strong&gt;You can find latest versions of this addon at this url: &lt;a href=&#34;http://outgoing.mozilla.org/v1/35a9e79394b328eb9259f2e478659eb61d61b5ed6e41d74e6b0d1d119567bb5c/https%3A//getfirebug.com/releases/dojofirebugextension/&#34; rel=&#34;nofollow&#34;&gt;https://getfirebug.com/releases/dojofirebugextension/&lt;/a&gt; . Please the firefox folder version number that best matches your version.&lt;/strong&gt;
+
+&lt;strong&gt;Compatibility table:&lt;/strong&gt;
+Older versions:
+&lt;ul&gt;&lt;li&gt;Firefox &lt;strong&gt;3.6&lt;/strong&gt; with &lt;strong&gt;Firebug 1.7.3 and Dojo Extension v1.0.x&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Firefox 4.0 with Firebug 1.7.3 and Dojo Extension v1.0.x.&lt;/li&gt;&lt;li&gt;Firefox 5.0 with Firebug 1.7.3 and Dojo Extension v1.0.x.&lt;/li&gt;&lt;/ul&gt;Current version:
+&lt;ul&gt;&lt;li&gt;Firefox 6.0 with Firebug 1.8.x and Dojo extension v1.1.x&lt;/li&gt;&lt;li&gt;Firefox 7.0 with Firebug 1.8.x and Dojo extension v1.1.x&lt;/li&gt;&lt;li&gt;Firefox 8.0 with Firebug 1.8.x / 1.9.x and Dojo extension v1.1.x&lt;/li&gt;&lt;li&gt;Firefox 9.0 with Firebug 1.8.x / 1.9.x and Dojo extension v1.1.x&lt;/li&gt;&lt;/ul&gt;You can access all previous versions from this url: &lt;a href=&#34;http://outgoing.mozilla.org/v1/9affcd69b4920f43d662af1365f354175673293499fb598dd1f3bb5e8759ab26/http%3A//getfirebug.com/releases/dojofirebugextension/&#34; rel=&#34;nofollow&#34;&gt;http://getfirebug.com/releases/dojofirebugextension/&lt;/a&gt; 
+Once there, please choose a folder according to your Firebug version.
+
+
+Are you a dojo app developer? How many times did you find that having the chance to debug the HTML, DOM and also the javascript of your page was *great*, but at the same time you wanted to have a faster access to dojo specifics? Exactly...That was one of the motivations behind this Dojo Firebug Extension.
+The idea of this extension is to provide easy access to some dojo concepts. Coding and debugging time can be reduced by having features to monitor dijits, access higher-level dojo concepts and specific dojo properties (instead of just DOM properties), see the available connections and subscriptions and be able to set breakpoints on those.
+
+With this extension you can:
+&lt;ul&gt;&lt;li&gt;View all the widgets registered in the dijit registry (as a Tree or as a plain list).&lt;ul&gt;&lt;li&gt;View their properties. For each widget you can also switch the view between &#34;dojo specific properties&#34; and &#34;classic DOM properties&#34;. For example, whether the widget&#39;s startup() method was already invoked or not.&lt;/li&gt;&lt;li&gt;Highlight dojo widgets in the web page (when you mouse-over them).&lt;/li&gt;&lt;li&gt;View detached widgets (widgets not yet attached to page).&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;View information about the dojo version, dojo-config object, url modules of the loaded page, and the total number of widgets, connections and subscriptions (these numbers are automatically refreshed in the extension UI...useful to detect leaks).&lt;/li&gt;&lt;li&gt;View all available connections and subscriptions (global to the app), and also connections and subscriptions associated to a &#34;selected&#34; object. You can filter the connections table to find some specific ones to debug.&lt;/li&gt;&lt;li&gt;Set breakpoints to connections: in the connections&#39;s event, in the target method, and in the line where the connection was created (i.e. dojo.connect). &lt;/li&gt;&lt;li&gt;Set breakpoints to subscriptions: in the target method and where the subscription was created.&lt;/li&gt;&lt;li&gt;Open documentation associated to a dojo object.&lt;/li&gt;&lt;/ul&gt;
+The extension is integrated with the Firebug inspector. You can right-click on a dijit element in the web page and it will be selected/inspected in the extension panels. You can also click the Firebug&#39;s inspect button from inside the extension panel and inspect only the dojo elements from your page.
+
+Also, several new visual representations were added to Firebug to better identify dojo objects in Firebug panels.
+
+The Dojo Firebug Extension started as an internal IBM initiative to help IBMers working with Dojo.</description>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/323/323592-64.png?modified=1365880481</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/323/323592-32.png?modified=1365880481</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>5.0</min_version>
+      <max_version>16.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="175">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59471.png?src=api&amp;modified=1308613951
+      </full>
+      <thumbnail type="" width="200" height="50">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59471.png?src=api&amp;modified=1308613951
+      </thumbnail><caption>Tree-view of dijit registry.  Global information about loaded dojo on the right</caption></preview><preview position="1">
+      <full type="" width="556" height="304">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59473.png?src=api&amp;modified=1308613951
+      </full>
+      <thumbnail type="" width="200" height="109">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59473.png?src=api&amp;modified=1308613951
+      </thumbnail><caption>context menu for dijits</caption></preview><preview position="2">
+      <full type="" width="700" height="193">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59474.png?src=api&amp;modified=1308613951
+      </full>
+      <thumbnail type="" width="200" height="55">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59474.png?src=api&amp;modified=1308613951
+      </thumbnail><caption>filtering global connections</caption></preview><preview position="3">
+      <full type="" width="384" height="295">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59475.png?src=api&amp;modified=1308613951
+      </full>
+      <thumbnail type="" width="195" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59475.png?src=api&amp;modified=1308613951
+      </thumbnail><caption>connections of a selected dijit</caption></preview><preview position="4">
+      <full type="" width="234" height="306">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59476.png?src=api&amp;modified=1308613951
+      </full>
+      <thumbnail type="" width="114" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59476.png?src=api&amp;modified=1308613951
+      </thumbnail><caption>integration with Firefox context menu</caption></preview><preview position="5">
+      <full type="" width="427" height="255">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59477.png?src=api&amp;modified=1308613951
+      </full>
+      <thumbnail type="" width="200" height="119">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59477.png?src=api&amp;modified=1308613951
+      </thumbnail><caption>breakpoints menu</caption></preview><preview position="6">
+      <full type="" width="675" height="305">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59478.png?src=api&amp;modified=1308613954
+      </full>
+      <thumbnail type="" width="200" height="90">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59478.png?src=api&amp;modified=1308613954
+      </thumbnail><caption>global subscriptions</caption></preview><preview position="7">
+      <full type="" width="700" height="235">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59479.png?src=api&amp;modified=1308613956
+      </full>
+      <thumbnail type="" width="200" height="67">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59479.png?src=api&amp;modified=1308613956
+      </thumbnail><caption>displaying dijit specific properties</caption></preview></previews><rating>2</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/dojofirebugextension/?src=api</learnmore><install hash="sha256:780b73bdfb6fb41c82231ad4fbb3602d887b18582fb2bac595f0718c6783e97f"
+    os="ALL"
+    size="109568">https://addons.mozilla.org/firefox/downloads/file/140124/dojo_firebug_extension-1.1.4-fx.xpi?src=api</install>
+  <install hash="sha256:56b51475b276580123f926b88b744acbcaacaa9237bd70cd121d42aefe9d78d1" os=""
+             size="138776"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/203368/dojo_firebug_extension-1.2.0a1-fx.xpi?src=api
+    </install>
+    <developer_comments>&lt;b&gt;Requirements:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;You must have &lt;b&gt;Firebug 1.7+&lt;/b&gt; installed and the Firebug &lt;b&gt;&#34;Console&#34;&lt;/b&gt; and &lt;b&gt;&#34;Script&#34;&lt;/b&gt; panels enabled to use this extension.&lt;/li&gt;&lt;/ul&gt;
+&lt;b&gt;Other Downloads&lt;/b&gt;
+Older and beta versions of Dojo Firebug Extension are available from &lt;a href=&#34;http://outgoing.mozilla.org/v1/49f4a7c5d5ab1fc5f69ff7226e0a7438d37b0918/http%3A//getfirebug.com/releases/dojofirebugextension/&#34; rel=&#34;nofollow&#34;&gt;http://getfirebug.com/releases/dojofirebugextension/&lt;/a&gt; folder at &lt;a href=&#34;http://outgoing.mozilla.org/v1/55ffa71b78949ac50e502727b45ad0e0690cec98/http%3A//getfirebug.com&#34; rel=&#34;nofollow&#34;&gt;getfirebug.com&lt;/a&gt;. Pick version number folder to match your version of Firebug.
+
+You can also find beta versions here in the beta channel.
+
+&lt;b&gt;Request tracker&lt;/b&gt;
+Please submit requests to the Firebug issues list: &lt;a href=&#34;http://outgoing.mozilla.org/v1/535dd7ec7bc177806ab6b3b4794e85341840cd0a/http%3A//code.google.com/p/fbug/issues/list&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/fbug/issues/list&lt;/a&gt; using a [dojo] prefix in the issue title.</developer_comments>
+    <reviews num="2">
+      https://addons.mozilla.org/en-US/firefox/addon/dojofirebugextension/reviews/?src=api
+    </reviews>
+    <total_downloads>57367</total_downloads>
+    <weekly_downloads>529</weekly_downloads>
+    <daily_users>5199</daily_users>
+    <created epoch="1308607166">
+      2011-06-20T21:59:26Z
+    </created>
+    <last_updated epoch="1326197148">
+      2012-01-10T12:05:48Z
+    </last_updated>
+    <homepage>http://getfirebug.com/wiki/index.php/DojoFirebugExtension_Reference_Guide</homepage>
+    <support>http://code.google.com/p/fbug/issues/list</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="161670">
+  <name>FlashFirebug</name>
+  <type id="1">Extension</type>
+  <guid>flashfirebug@o-minds.com</guid>
+  <slug>flashfirebug</slug>
+  <version>4.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5964078">
+      <name>O-Minds</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/ominds/?src=api</link>
+    </author>      </authors>
+  <summary>Debug Flash/SWF files on the web. Edit properties and inspect elements on the fly. View log output inside the extension. Run AS3 code against the active SWF. Access assets with the Explorer. View AMF calls and Shared Objects and much much more...</summary>
+  <description>FlashFirebug gives you the ability to debug any AS3 Flash on the web. Inspect the DisplayList, change properties on the fly and see the warnings, errors and traces directly in the extension. Use the inspector to hone in on elements, transform objects on the fly and use the console to run AS3 commands on the active SWF. This extension is a paid extension, you can get a 7 day trial from here:
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/6ba22a69a71da255e9128d9b734ef2efc774068207f00d8c866e5eeab50f608d/http%3A//www.o-minds.com/payment/flashfirebug&#34; rel=&#34;nofollow&#34;&gt;http://www.o-minds.com/payment/flashfirebug&lt;/a&gt;
+
+This extension requires Flash Player Debugger for netscape compatible browsers (&lt;a href=&#34;http://outgoing.mozilla.org/v1/0bb691111a62191f0f38554dc68f43589202a29d58f8543d95c0b26658d751dc/http%3A//www.adobe.com/support/flashplayer/downloads.html&#34; rel=&#34;nofollow&#34;&gt;http://www.adobe.com/support/flashplayer/downloads.html&lt;/a&gt;) installed. You can find out more on the product website at:
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/3342d9e6a014b917d3822b437cbda440bc94b8de5c2e0feb329109b729039b40/http%3A//www.o-minds.com/products/flashfirebug&#34; rel=&#34;nofollow&#34;&gt;http://www.o-minds.com/products/flashfirebug&lt;/a&gt;
+
+Here are some of the extension features:
+1. Output: View errors, warning, and trace output inside the extension.
+2. Properties: View and change object properties at run-time.
+3. SWF Inspector Tool: Inspect inside SWF files like you inspect HTML.
+4. AMF Tab: Lives in the Net Panel and shows AMF request details.
+5. Shared Object Panel: Displays any shared objects related to the site.
+6. Console: Execute AS3 against active SWF.
+7. Explorer: Explore the assets inside the active SWF.
+8. 3D Transform Tool: Free Transform, 3D Rotate, 3D Translate.
+9. Profiler: Find out what&#39;s slowing down your SWFs.
+10. And much more to come...
+
+Follow us on twitter for FlashFirebug &lt;a href=&#34;http://outgoing.mozilla.org/v1/18571df6ccae276668235c848595b7316ccfce0d3be4df19f7da035a5eaf3b42/http%3A//twitter.com/flashfirebug&#34; rel=&#34;nofollow&#34;&gt;updates&lt;/a&gt;
+
+Please report feature requests, support requests and bugs at our &lt;a href=&#34;http://outgoing.mozilla.org/v1/e451fa530de9959c095bef5a084cd68ab9d32b716c698eefb327aac4f154ac92/http%3A//www.o-minds.com/contact&#34; rel=&#34;nofollow&#34;&gt;contact page&lt;/a&gt;.</description><license>
+    <name>GNU Lesser General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/161/161670-64.png?modified=1369508745</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/161/161670-32.png?modified=1369508745</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="387">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59911.png?src=api&amp;modified=1309427175
+      </full>
+      <thumbnail type="" width="200" height="110">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59911.png?src=api&amp;modified=1309427175
+      </thumbnail><caption>FlashFirebug 3.0</caption></preview><preview position="1">
+      <full type="" width="634" height="220">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59906.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="69">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59906.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Display Tree</caption></preview><preview position="2">
+      <full type="" width="601" height="515">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59899.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="175" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59899.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>3D Transform Tool</caption></preview><preview position="3">
+      <full type="" width="700" height="335">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59900.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="95">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59900.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>SWF Inspector</caption></preview><preview position="4">
+      <full type="" width="596" height="282">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59901.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59901.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>General Information</caption></preview><preview position="5">
+      <full type="" width="476" height="259">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59902.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="108">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59902.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Console</caption></preview><preview position="6">
+      <full type="" width="549" height="195">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59903.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="71">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59903.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Output</caption></preview><preview position="7">
+      <full type="" width="694" height="271">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59904.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="78">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59904.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Properties</caption></preview><preview position="8">
+      <full type="" width="223" height="160">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59905.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="143">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59905.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Settings</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/flashfirebug/?src=api</learnmore><install hash="sha256:07ab3ece5e7ce3bfa5e206dd01a990babb6865b95e27ea42d6f6522101c4b8ed"
+    os="ALL"
+    size="2572274">https://addons.mozilla.org/firefox/downloads/file/230059/flashfirebug-4.7-fx.xpi?src=api</install>
+  <developer_comments>Cost for extension may change anytime but would only affect new users. Old users will remain on same plan as long as subscription is not terminated by user.</developer_comments>
+    <reviews num="3">
+      https://addons.mozilla.org/en-US/firefox/addon/flashfirebug/reviews/?src=api
+    </reviews>
+    <total_downloads>1395812</total_downloads>
+    <weekly_downloads>5632</weekly_downloads>
+    <daily_users>56157</daily_users>
+    <created epoch="1273367099">
+      2010-05-09T01:04:59Z
+    </created>
+    <last_updated epoch="1381672794">
+      2013-10-13T13:59:54Z
+    </last_updated>
+    <homepage>http://www.o-minds.com/products/flashfirebug</homepage>
+    <support>http://www.o-minds.com/contact</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+    </searchresults>

@@ -26,7 +26,7 @@ public class PageObject {
 	public static final By SEARCH_FEILD = By.id("twotabsearchtextbox");
 	public static final By SEARCH_FIELD_SUGGESTION = By.xpath("html/body/header/div/div[2]/div[2]/div/form/div[1]/div/div/div/div/div[2]");
 	
-	public static final String SIGN_IN_BUTTON = "//input[@id='signInSubmit-input']";
+	public static final String SIGN_IN_BUTTON = "//input[@id='signInSubmit-input']";//TODO replace with by
 	public static final By LOGIN = By.id("ap_email");
 	public static final String ERROR_XPATH = "//div[@id='message_error']";
 	public static final By ERROR = By.id("message_error");
@@ -48,7 +48,7 @@ public class PageObject {
 	}
 	
 	public int countNumberOfOccurances(By by){
-		return driver.findElements(by).size();
+		return driver.findElements(by).size();//TODO add wait
 	}
 	
 	public boolean isDisplayed(By by){
@@ -58,22 +58,24 @@ public class PageObject {
 		} catch (Exception e) {
 			// take screen shot and log error
 			// print message for now
-			//TODO also need to close browser!!!
 			System.out.println(" syso message " + e.getMessage());
 		}
 		return returnValue;
 		
 	}
 	
-	public void populateInput(By by, String input){
+	public boolean populateInput(By by, String input){
+		boolean returnValue = false;
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(by)).sendKeys(input);
+			returnValue = true;
 		} catch (Exception e) {
 			// take screen shot and log error
 			// print message for now
 			//TODO also need to close browser!!!
 			System.out.println(" syso message " + e.getMessage());
 		}
+		return returnValue;
 	}
 	
 	public void populateAutoSuggestInput(By by, String input, By by2){
@@ -105,6 +107,8 @@ public class PageObject {
 			// take screen shot and log error
 			// print message for now
 			System.out.println(" syso message goToURL method" + e.getMessage());
+			throw e;//TODO implement throw
+			
 		}
 
 		return returnValue;

@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchresults total_results="242">
+          <addon id="11900">
+  <name>FirePath</name>
+  <type id="1">Extension</type>
+  <guid>FireXPath@pierre.tholence.com</guid>
+  <slug>firepath</slug>
+  <version>0.9.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4504606">
+      <name>Pierre Tholence</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/pierre-tholence/?src=api</link>
+    </author>      </authors>
+  <summary>FirePath is a Firebug extension that adds a development tool to edit, inspect and generate XPath 1.0 expressions, CSS 3 selectors and JQuery selectors (Sizzle selector engine).</summary>
+  <description>With FirePath you can:
+  * Edit XPath expressions, CSS3 selectors and JQuery selectors (Sizzle selector engine) with auto completion for XPath (using TAB or up and down arrows).
+  * Evaluate the expression/selector on any HTML or XML documents.
+  * Display the result of evaluations in a Firebug-like DOM tree.
+  * Highlight the results directly on the document displayed by Firefox (works only with HTML documents).
+  * Generate an XPath expression or a CSS selector for an element by right clicking on it and selecting &#34;Inspect in FirePath&#34; in the context menu.
+  * Define the evaluation context (parent) of an expression/selector.
+  * Choose the document in which to evaluate the expression/selector (only applicable for HTML documents with frames or iframes).
+
+FirePath 0.9.7  requires Firefox 3.5 to 6.0 and Firebug 1.4 to 1.8.*
+Note that the XPath auto completion does not work with Firebug 1.6 and higher
+
+
+
+Author: 
+Pierre Tholence 
+FirePath has been developed during my master project at DB4ALL.
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/652f8ff200006ec75768272d64e390e984373a38/http%3A//DB4ALL.com&#34; rel=&#34;nofollow&#34;&gt;DB4ALL.com&lt;/a&gt; is a Start-Up at the Database Laboratory at EPFL funded by Innogrant. We are experts on decision support systems and web robots for database collection, integration and cleaning.
+
+Our objective is to promote the use of datasets to users and companies for making more informed decisions. By datasets we refer to the content (list of books, movies, restaurants, jobs, biochemical products, zip codes...).</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11900-64.png?modified=1328144657</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/11/11900-32.png?modified=1328144657</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>4.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="490" height="267">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/32/32322.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="108">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/32/32322.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="700" height="215">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/32/32281.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="61">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/32/32281.png?src=api&amp;modified=1331247702
+      </thumbnail></preview><preview position="1">
+      <full type="image/png" width="700" height="265">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/32/32283.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="75">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/32/32283.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firepath/?src=api</learnmore><install hash="sha256:c564e1f305766c5f08d71ad366042413e0d0be825571c31ee86724ea26fc02dc"
+    os="ALL"
+    size="51200">https://addons.mozilla.org/firefox/downloads/file/128347/firepath-0.9.7-fx.xpi?src=api</install>
+  <developer_comments>If you have any problems or suggestions please use the discussion group:
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/07f65e94289d65c21a44216ed6ebfc2f9005c94a/http%3A//groups.google.com/group/firepath&#34; rel=&#34;nofollow&#34;&gt;http://groups.google.com/group/firepath&lt;/a&gt;
+
+You can also email me at:
+pierre.tholence@gmail.com
+
+If you think you found a bug, you can report an issue here: 
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/382237f57bef2433704d41deaea193b1a693323b/http%3A//code.google.com/p/firepath/issues/list&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/firepath/issues/list&lt;/a&gt;</developer_comments>
+    <reviews num="16">
+      https://addons.mozilla.org/en-US/firefox/addon/firepath/reviews/?src=api
+    </reviews>
+    <total_downloads>355941</total_downloads>
+    <weekly_downloads>3709</weekly_downloads>
+    <daily_users>39145</daily_users>
+    <created epoch="1242057974">
+      2009-05-11T16:06:14Z
+    </created>
+    <last_updated epoch="1312695353">
+      2011-08-07T05:35:53Z
+    </last_updated>
+    <homepage>http://code.google.com/p/firepath/</homepage>
+    <support>http://groups.google.com/group/firepath</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="8969">
+  <name>FireMath</name>
+  <type id="1">Extension</type>
+  <guid>firemath@claas.bontus</guid>
+  <slug>firemath</slug>
+  <version>0.9</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="48420">
+      <name>MrBont</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mrbont/?src=api</link>
+    </author>      </authors>
+  <summary>FireMath is an equation editor based on MathML, the mathematical markup language.
+
+Find examples, FAQ, installation instructions and a discussion board at
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/71c11cd588d216d510a2a62548cf62b75b5a405e/http%3A//www.firemath.info&#34; rel=&#34;nofollow&#34;&gt;http://www.firemath.info&lt;/a&gt;
+
+Speed up scientific scripting! Improve your science!</summary>
+  <description>Generate mathematical, physical and engineering formulas quickly and easily.
+
+FireMath requires mathematical fonts to be installed. See &lt;a href=&#34;http://outgoing.mozilla.org/v1/7eee1f0ae788df4862eca673683ab4951de48717/http%3A//www.mozilla.org/projects/mathml/fonts/&#34; rel=&#34;nofollow&#34;&gt;http://www.mozilla.org/projects/mathml/fonts/&lt;/a&gt; for details.
+
+Find examples, FAQ, installation instructions and a discussion board at
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/71c11cd588d216d510a2a62548cf62b75b5a405e/http%3A//www.firemath.info&#34; rel=&#34;nofollow&#34;&gt;http://www.firemath.info&lt;/a&gt;
+
+Useful in mathematics, physics, engineering.</description><license>
+    <name>GNU General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/gpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/8/8969-64.png?modified=1337360433</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/8/8969-32.png?modified=1337360433</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>10.0</min_version>
+      <max_version>15.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>Firemath is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
+
+Firemath is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License  along with Firemath. If not, see &lt;a href=&#34;http://outgoing.mozilla.org/v1/3d6917694df8e9679bcc47a13f1aa376bba1b3b3bfd76531ad656a4c22fcb734/http%3A//www.gnu.org/licenses/&#34; rel=&#34;nofollow&#34;&gt;http://www.gnu.org/licenses/&lt;/a&gt;.</eula><previews><preview position="0">
+      <full type="image/png" width="204" height="51">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/26/26470.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="200" height="50">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/26/26470.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FireMath - The equation editor</caption></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/26/26256.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/26/26256.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Editor overview.</caption></preview><preview position="1">
+      <full type="image/png" width="415" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/26/26257.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="118" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/26/26257.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Matrix options dialog.</caption></preview><preview position="1">
+      <full type="image/png" width="433" height="439">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/26/26260.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="147" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/26/26260.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Fences attributes.</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firemath/?src=api</learnmore><install hash="sha256:0f392ccf1797225a573c1f7911efca0c3749fc284e18944e37a0c74cf684864d"
+    os="ALL"
+    size="151552">https://addons.mozilla.org/firefox/downloads/file/151445/firemath-0.9-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="10">
+      https://addons.mozilla.org/en-US/firefox/addon/firemath/reviews/?src=api
+    </reviews>
+    <total_downloads>37599</total_downloads>
+    <weekly_downloads>89</weekly_downloads>
+    <daily_users>2568</daily_users>
+    <created epoch="1222186838">
+      2008-09-23T16:20:38Z
+    </created>
+    <last_updated epoch="1337333904">
+      2012-05-18T09:38:24Z
+    </last_updated>
+    <homepage>http://www.firemath.info/</homepage>
+    <support>http://www.firemath.info/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="1843">
+  <name>Firebug</name>
+  <type id="1">Extension</type>
+  <guid>firebug@software.joehewitt.com</guid>
+  <slug>firebug</slug>
+  <version>1.12.5</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="9265">
+      <name>Joe Hewitt</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/joe-hewitt/?src=api</link>
+    </author><author id="857086">
+      <name>Jan Odvarko</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/jan-odvarko/?src=api</link>
+    </author><author id="95117">
+      <name>robcee</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/robcee/?src=api</link>
+    </author><author id="4957771">
+      <name>FirebugWorkingGroup</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/firebugworkinggroup/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug integrates with Firefox to put a wealth of development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page...</summary>
+  <description>&lt;a href=&#34;http://outgoing.mozilla.org/v1/fc4997ab3399c96f4fddde69c127a1a7ac4d471f70a11827f5965b04dd3d60a0/https%3A//twitter.com/%23%21/firebugnews&#34; rel=&#34;nofollow&#34;&gt;Follow Firebug news on Twitter&lt;/a&gt;
+
+Compatibility table:
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Firefox 3.6&lt;/strong&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/?page=1#version-1.7.3&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.7.3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 4.0&lt;/strong&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/?page=1#version-1.7.3&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.7.3&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 5.0&lt;/strong&gt; with &lt;strong&gt;Firebug 1.8.2&lt;/strong&gt; (and also &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/?page=1#version-1.7.3&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.7.3&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 6.0&lt;/strong&gt; with &lt;strong&gt;Firebug 1.8.2&lt;/strong&gt; (and also &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 7.0&lt;/strong&gt; with &lt;strong&gt;Firebug 1.8.2&lt;/strong&gt; (and also &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 8.0&lt;/strong&gt; with &lt;strong&gt;Firebug 1.8.3&lt;/strong&gt; (and also &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 9.0&lt;/strong&gt; with &lt;strong&gt;Firebug 1.8.4&lt;/strong&gt; (and also &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 10.0&lt;/strong&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 11.0&lt;/strong&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 12.0&lt;/strong&gt; with &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 13.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.10&lt;/b&gt; (and also &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/firebug/versions/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9&lt;/a&gt;)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 14.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.10&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 15.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.10&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 16.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.10&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 17.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.11&lt;/b&gt; (and also Firebug 1.10)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 18.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.11&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 19.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.11&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 20.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.11&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 21.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.11&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 22.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.11&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 23.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.12&lt;/b&gt; (and also Firebug 1.11)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 24.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.12&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Firefox 25.0&lt;/strong&gt; with &lt;b&gt;Firebug 1.12&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+Firebug integrates with Firefox to put a wealth of development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page.
+
+Visit the Firebug website for documentation and screen shots: &lt;a href=&#34;http://outgoing.mozilla.org/v1/835dbec6bd77fa1341bf5841171bc90e8a5d4069419f083a25b7f81f9fb254cb/http%3A//getfirebug.com&#34; rel=&#34;nofollow&#34;&gt;http://getfirebug.com&lt;/a&gt;
+Ask questions on Firebug newsgroup: &lt;a href=&#34;http://outgoing.mozilla.org/v1/2398490bb3575c96d4cf9054e4f11236717aa6b9f353f5ada85dd8c74ed0dbbe/https%3A//groups.google.com/forum/%23%21forum/firebug&#34; rel=&#34;nofollow&#34;&gt;https://groups.google.com/forum/#!forum/firebug&lt;/a&gt;
+Report an issue: &lt;a href=&#34;http://outgoing.mozilla.org/v1/82ba7e7d7600d78965967de98579334986246b827dcc5c8a0bcf0ba036ef62dd/http%3A//code.google.com/p/fbug/issues/list&#34; rel=&#34;nofollow&#34;&gt;http://code.google.com/p/fbug/issues/list&lt;/a&gt;
+
+&lt;i&gt;Please note that bug reports or feature requests in comments on this page won&#39;t be tracked. Use the issue tracker or Firebug newsgroup instead thanks!&lt;/i&gt;</description><license>
+    <name>BSD License</name>
+    <url>http://www.opensource.org/licenses/bsd-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1843-64.png?modified=1381507357</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/1/1843-32.png?modified=1381507357</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>23.0</min_version>
+      <max_version>26.0</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52710.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52710.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>Command line and its auto-completion.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52711.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52711.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>Console panel with an example error logs.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52712.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52712.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>CSS panel with inline editor.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52713.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52713.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>DOM panel displays structure of the current page.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52714.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52714.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>HTML panel shows markup of the current page.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52715.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52715.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>Layout panel reveals layout of selected elements.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52716.png?src=api&amp;modified=1295279900
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52716.png?src=api&amp;modified=1295279900
+      </thumbnail><caption>Net panel monitors HTTP communication.</caption></preview><preview position="1">
+      <full type="" width="700" height="330">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/52/52717.png?src=api&amp;modified=1295279901
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/52/52717.png?src=api&amp;modified=1295279901
+      </thumbnail><caption>Script panel allows to explore and debug JavaScript on the current page.</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firebug/?src=api</learnmore><install hash="sha256:5b691f93f167e2d025ee803201ea20ca6a876e90f29fc431b474175d00b46747"
+    os="ALL"
+    size="2212154">https://addons.mozilla.org/firefox/downloads/file/234474/firebug-1.12.5-fx.xpi?src=api</install>
+  <install hash="sha256:2c6e8327ef8bbc26fc766f6f2c36a9b5e2dec4bbf13a8f5d7cca34780f0999c9" os=""
+             size="2212157"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/234538/firebug-1.12.5b1-fx.xpi?src=api
+    </install>
+    <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/firebug/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="10.00">
+            $10.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/firebug/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>If you have any problems, please read the Firebug FAQ.
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/5ea1894b182489b660d05bbd802d85c912b93d9981fa121194866ff48c71d5d8/https%3A//getfirebug.com/faq&#34; rel=&#34;nofollow&#34;&gt;https://getfirebug.com/faq&lt;/a&gt;</developer_comments>
+    <reviews num="1582">
+      https://addons.mozilla.org/en-US/firefox/addon/firebug/reviews/?src=api
+    </reviews>
+    <total_downloads>63534277</total_downloads>
+    <weekly_downloads>161758</weekly_downloads>
+    <daily_users>3045102</daily_users>
+    <created epoch="1137054450">
+      2006-01-12T08:27:30Z
+    </created>
+    <last_updated epoch="1384987130">
+      2013-11-20T22:38:50Z
+    </last_updated>
+    <homepage>http://getfirebug.com/</homepage>
+    <support>http://getfirebug.com</support>
+    <featured>0</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="541.42"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="471.95"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="633.89"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="969.42"
+                  above_threshold="true" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="976.21"
+                  above_threshold="true" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="1160.53"
+                  above_threshold="true" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="964.11"
+                  above_threshold="true" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="1015.05"
+                  above_threshold="true" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="1176.47"
+                  above_threshold="true" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="1177.95"
+                  above_threshold="true" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="538.47"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="481.26"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="640.79"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="654.21"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="684">
+  <name>FireFTP</name>
+  <type id="1">Extension</type>
+  <guid>{a7c6cf7f-112c-4500-a7ea-39801a327e5f}</guid>
+  <slug>fireftp</slug>
+  <version>2.0.17</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="167">
+      <name>Mime Čuvalo</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mime-%C4%8Duvalo/?src=api</link>
+    </author>      </authors>
+  <summary>FireFTP is a free, secure, cross-platform FTP/SFTP client for Mozilla Firefox which provides easy and intuitive access to FTP/SFTP servers.
+
+Check out my new project, &lt;a href=&#34;https://addons.mozilla.org/firefox/addon/firessh/&#34; rel=&#34;nofollow&#34;&gt;FireSSH&lt;/a&gt;!</summary>
+  <description>gSiteManager/no accounts problem:
+There&#39;s a tool available now to fix the files that are affected by the gSiteManager problem.
+Visit: &lt;a href=&#34;http://outgoing.mozilla.org/v1/8301b3efa8cde4ceea3ef1c552e32d1c5f9bb61b341ce93fd661e4f074f0efd0/http%3A//fireftp.net/help.html&#34; rel=&#34;nofollow&#34;&gt;http://fireftp.net/help.html&lt;/a&gt;
+Then click &#34;I can&#39;t add accounts - all of my accounts are a gone and I&#39;m seeing an error saying gSiteManager is undefined&#34; to see a tool that will allow you to convert the file properly.
+
+Along with transferring your files quickly and efficiently, FireFTP also includes more advanced features such as: directory comparison, syncing directories while navigating, SFTP, SSL encryption, search/filtering, integrity checks, remote editing, drag &amp;amp; drop, file hashing, and much more!</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/0/684-64.png?modified=1378054086</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/0/684-32.png?modified=1378054086</icon>
+  <compatible_applications><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.1</min_version>
+      <max_version>2.17.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>21.0</min_version>
+      <max_version>22.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="256" height="256">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/61/61411.png?src=api&amp;modified=1312322493
+      </full>
+      <thumbnail type="" width="150" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/61/61411.png?src=api&amp;modified=1312322493
+      </thumbnail></preview><preview position="1">
+      <full type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/9/9570.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/9/9570.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Manage files with ease</caption></preview><preview position="2">
+      <full type="image/png" width="690" height="520">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/15/15919.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="199" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/15/15919.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/fireftp/?src=api</learnmore><install hash="sha256:1d8447d4e8e16cae16144944d5fe3f047e10527fab2ef26945aab1572ea3590d"
+    os="ALL"
+    size="869218">https://addons.mozilla.org/firefox/downloads/file/233662/fireftp-2.0.17-sm+fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/fireftp/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="10.00">
+            $10.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/fireftp/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="815">
+      https://addons.mozilla.org/en-US/firefox/addon/fireftp/reviews/?src=api
+    </reviews>
+    <total_downloads>23149593</total_downloads>
+    <weekly_downloads>21068</weekly_downloads>
+    <daily_users>879974</daily_users>
+    <created epoch="1115364095">
+      2005-05-06T07:21:35Z
+    </created>
+    <last_updated epoch="1384908789">
+      2013-11-20T00:53:09Z
+    </last_updated>
+    <homepage>http://fireftp.net</homepage>
+    <support>http://fireftp.net/help.html</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="482.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="549.11"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="640.0"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="482.26"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="638.16"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="527.16"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="538.53"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="490.37"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="651.79"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="655.89"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="634.63"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="557.05"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="484.58"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="680.53"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="6366">
+  <name>FireGestures</name>
+  <type id="1">Extension</type>
+  <guid>firegestures@xuldev.org</guid>
+  <slug>firegestures</slug>
+  <version>1.7.15</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="256">
+      <name>Gomita</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/gomita/?src=api</link>
+    </author>      </authors>
+  <summary>A customizable mouse gestures extension which enables to execute various commands and user scripts with six types of gestures.</summary>
+  <description>You can execute various commands and user scripts with six types of mouse gestures:
+ - Mouse Gestures (Move mouse with holding right-click)
+ - Wheel Gestures (Scroll wheel with holding right-click)
+ - Rocker Gestures (Left-click with holding right-click and vice versa)
+ - Keypress Gestures (Mouse gesture with holding Ctrl / Shift key)
+ - Tab Wheel Gestures (Scrolling wheel on the tab bar)
+ - Swipe Gestures (3 or 4 fingers multi-touch on Mac&#39;s trackpad)
+
+Additionally, you can install and make your own scripts to add functions. For more details, please visit the homepage.
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/66d609104fbf8c8050c69c5f7c9e2b22ba3164e6a3fffd3d83df1765eb1eed74/http%3A//www.xuldev.org/firegestures/&#34; rel=&#34;nofollow&#34;&gt;http://www.xuldev.org/firegestures/&lt;/a&gt;</description><license>
+    <name>Custom License</name>
+    <url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6366-64.png?modified=1376482835</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6366-32.png?modified=1376482835</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>20.0</min_version>
+      <max_version>28.0a1</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110846.png?src=api&amp;modified=1376393253
+      </full>
+      <thumbnail type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110846.png?src=api&amp;modified=1376393253
+      </thumbnail><caption>Mouse Gesture on Browser Window</caption></preview><preview position="1">
+      <full type="" width="700" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110847.png?src=api&amp;modified=1376393253
+      </full>
+      <thumbnail type="" width="200" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110847.png?src=api&amp;modified=1376393253
+      </thumbnail><caption>Mouse Gesture on View Source Window</caption></preview><preview position="2">
+      <full type="" width="467" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110848.png?src=api&amp;modified=1376393253
+      </full>
+      <thumbnail type="" width="133" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110848.png?src=api&amp;modified=1376393253
+      </thumbnail><caption>Options (1)</caption></preview><preview position="3">
+      <full type="" width="467" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110849.png?src=api&amp;modified=1376393253
+      </full>
+      <thumbnail type="" width="133" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110849.png?src=api&amp;modified=1376393253
+      </thumbnail><caption>Options (2)</caption></preview><preview position="4">
+      <full type="" width="467" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110850.png?src=api&amp;modified=1376393254
+      </full>
+      <thumbnail type="" width="133" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110850.png?src=api&amp;modified=1376393254
+      </thumbnail><caption>Options (3)</caption></preview><preview position="5">
+      <full type="" width="467" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/110/110851.png?src=api&amp;modified=1376393254
+      </full>
+      <thumbnail type="" width="133" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/110/110851.png?src=api&amp;modified=1376393254
+      </thumbnail><caption>Options (4)</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firegestures/?src=api</learnmore><install hash="sha256:7a600ba23713eb89922bb8ef334966547d74e959b5ac8ad967cf44917c252b9d"
+    os="ALL"
+    size="390495">https://addons.mozilla.org/firefox/downloads/file/235857/firegestures-1.7.15-fx.xpi?src=api</install>
+  <install hash="sha256:296958c76c625e7fce0d9744ed83024804e4b193924c30404f70b67f46fdde70" os=""
+             size="407582"
+             status="Beta">
+      https://addons.mozilla.org/firefox/downloads/file/213644/firegestures-1.7.6b1-fx.xpi?src=api
+    </install>
+    <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/firegestures/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="2.99">
+            $2.99
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/firegestures/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments>FireGestures 1.7.8 has a critical bug with Italian, Portuguese (Brazil) and Slovak localizations.
+If you have installed ver.1.7.8, please update to 1.7.9 from:
+&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/firegestures/versions/&#34; rel=&#34;nofollow&#34;&gt;https://addons.mozilla.org/firefox/addon/firegestures/versions/&lt;/a&gt;</developer_comments>
+    <reviews num="685">
+      https://addons.mozilla.org/en-US/firefox/addon/firegestures/reviews/?src=api
+    </reviews>
+    <total_downloads>9391833</total_downloads>
+    <weekly_downloads>16003</weekly_downloads>
+    <daily_users>465677</daily_users>
+    <created epoch="1200732213">
+      2008-01-19T08:43:33Z
+    </created>
+    <last_updated epoch="1386267536">
+      2013-12-05T18:18:56Z
+    </last_updated>
+    <homepage>http://www.xuldev.org/firegestures/</homepage>
+    <support>http://www.xuldev.org/firegestures/</support>
+    <featured>1</featured>
+        <performance>
+            <application name="fx" version="8.0.1">
+                <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.26" average="477.68"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="548.47" average="562.79"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="637.58" average="638.79"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="6.0.2">
+                <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="654.42" average="665.21"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="519.79" average="536.26"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="476.21" average="510.53"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="7.0.1">
+                <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="547.16" average="554.16"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="479.68" average="486.11"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="667.37" average="650.47"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2">
+          <result type="ts" baseline="671.16" average="650.58"
+                  above_threshold="false" />
+        </platform></application>      <application name="fx" version="8.0">
+                <platform name="MacOSX" version="10.6 (rev4)">
+          <result type="ts" baseline="624.84" average="634.32"
+                  above_threshold="false" />
+        </platform>        <platform name="WINNT" version="6.1">
+          <result type="ts" baseline="541.58" average="540.74"
+                  above_threshold="false" />
+        </platform>        <platform name="Fedora" version="12 - Constantine">
+          <result type="ts" baseline="477.95" average="479.26"
+                  above_threshold="false" />
+        </platform>        <platform name="MacOSX" version="10.6.2 (rev3)">
+          <result type="ts" baseline="657.21" average="659.0"
+                  above_threshold="false" />
+        </platform></application></performance>
+    </addon>
+  <addon id="12632">
+  <name>FireQuery</name>
+  <type id="1">Extension</type>
+  <guid>firequery@binaryage.com</guid>
+  <slug>firequery</slug>
+  <version>1.4.1</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="50466">
+      <name>BinaryAge</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/binaryage/?src=api</link>
+    </author>      </authors>
+  <summary>Firebug plugin for jQuery development</summary>
+  <description>FireQuery is a collection of Firebug enhancements for jQuery. Requires Firebug 1.3 or greater.
+
+Features:
+&lt;ul&gt;&lt;li&gt;jQuery expressions are intelligently presented in Firebug Console and DOM inspector&lt;/li&gt;&lt;li&gt;attached jQuery data are first class citizens&lt;/li&gt;&lt;li&gt;elements in jQuery collections are highlighted on hover&lt;/li&gt;&lt;li&gt;jQuerify: enables you to inject jQuery into any page&lt;/li&gt;&lt;/ul&gt;</description><license>
+    <name>MIT/X11 License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/12/12632-64.png?modified=1351198927</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/12/12632-32.png?modified=1351198927</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>2.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.23</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="525" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/33/33674.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="150" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/33/33674.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>FireQuery features in Firebug 1.4</caption></preview><preview position="1">
+      <full type="image/png" width="525" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/33/33675.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="150" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/33/33675.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Enhanced console Panel of Firebug 1.4</caption></preview><preview position="1">
+      <full type="image/png" width="525" height="525">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/33/33676.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="150" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/33/33676.png?src=api&amp;modified=1331247702
+      </thumbnail><caption>Enhanced HTML Panel of Firebug 1.4</caption></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firequery/?src=api</learnmore><install hash="sha256:60b86fc2e827767d356764b271721e42d8e026cf2e78467d2e6612c9a2764af2"
+    os="ALL"
+    size="116414">https://addons.mozilla.org/firefox/downloads/file/226286/firequery-1.4.1-fx+sm.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/firequery/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="5.00">
+            $5.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/firequery/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="42">
+      https://addons.mozilla.org/en-US/firefox/addon/firequery/reviews/?src=api
+    </reviews>
+    <total_downloads>697165</total_downloads>
+    <weekly_downloads>2139</weekly_downloads>
+    <daily_users>51586</daily_users>
+    <created epoch="1245983984">
+      2009-06-26T02:39:44Z
+    </created>
+    <last_updated epoch="1378563232">
+      2013-09-07T14:13:52Z
+    </last_updated>
+    <homepage>http://firequery.binaryage.com</homepage>
+    <support>http://support.binaryage.com</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="6149">
+  <name>FirePHP</name>
+  <type id="1">Extension</type>
+  <guid>FirePHPExtension-Build@firephp.org</guid>
+  <slug>firephp</slug>
+  <version>0.7.4</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="92126">
+      <name>cadorn</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/cadorn/?src=api</link>
+    </author>      </authors>
+  <summary>FirePHP enables you to log to your Firebug Console using a simple PHP method call.
+
+Not using Firebug 1.9+ on Firefox 8+? See &lt;a href=&#34;http://outgoing.mozilla.org/v1/37e461db0608752e7d8c2620daecac7b5e6a57ef92b041fef60c1f95ab721f98/http%3A//firephp.org/&#34; rel=&#34;nofollow&#34;&gt;http://firephp.org/&lt;/a&gt;</summary>
+  <description>FirePHP enables you to log to your Firebug Console using a simple PHP method call.
+
+FirePHP is ideally suited for AJAX development where clean JSON or XML responses are required. All data is sent via response headers. This means that the debugging data will not interfere with the content on your page.
+
+&lt;b&gt;Not using Firebug 1.9+ on Firefox 8+? See &lt;a href=&#34;http://outgoing.mozilla.org/v1/37e461db0608752e7d8c2620daecac7b5e6a57ef92b041fef60c1f95ab721f98/http%3A//firephp.org/&#34; rel=&#34;nofollow&#34;&gt;http://firephp.org/&lt;/a&gt;&lt;/b&gt;
+
+Requirements (Firefox 8+):
+&lt;ul&gt;  &lt;li&gt;You must have &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/1843/&#34; rel=&#34;nofollow&#34;&gt;Firebug 1.9+&lt;/a&gt; installed and the &lt;strong&gt;Firebug &#34;Console&#34; and &#34;Net&#34; panels enabled&lt;/strong&gt; to use this extension.&lt;/li&gt;  &lt;li&gt;You must also download a PHP library from &lt;a href=&#34;http://outgoing.mozilla.org/v1/2da2427fcb0b970cb16ee2a97a8185cb773dedbd4cf866779dd7c7feadcfa0ff/http%3A//www.firephp.org/HQ/Install.htm&#34; rel=&#34;nofollow&#34;&gt;http://www.firephp.org/&lt;/a&gt; and include it in your application.&lt;/li&gt;&lt;/ul&gt;</description><license>
+    <name>BSD License</name>
+    <url>http://www.opensource.org/licenses/bsd-license.php</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6149-64.png?modified=1365737419</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/6/6149-32.png?modified=1365737419</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>8.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula>FirePHP is distributed subject to the New BSD License on an &#34;AS IS&#34; basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. USE AT YOUR OWN RISK.
+
+IN NO EVENT WILL ANY COPYRIGHT HOLDER OR ANY OTHER PARTY BE LIABLE TO YOU FOR DAMAGES.
+
+By using FirePHP you agree to all terms of the New BSD License.
+
+
+Software License Agreement (New BSD License)
+
+Copyright (c) 2006-2010, Christoph Dorn
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimer in the documentation
+      and/or other materials provided with the distribution.
+
+    * Neither the name of Christoph Dorn nor the names of its
+      contributors may be used to endorse or promote products derived from this
+      software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &#34;AS IS&#34; AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</eula><previews><preview position="0">
+      <full type="image/png" width="422" height="457">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/21/21700.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="138" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/21/21700.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firephp/?src=api</learnmore><install hash="sha256:c640a228e607eab4f6be5b63b2191e4d2fb7a52d169951583743c3e7be6de81a"
+    os="ALL"
+    size="84201">https://addons.mozilla.org/firefox/downloads/file/226816/firephp-0.7.4-fx.xpi?src=api</install>
+  <contribution_data>
+      <link>https://addons.mozilla.org/en-US/firefox/addon/firephp/contribute/?src=api</link>
+                <suggested_amount currency="USD" amount="10.00">
+            $10.00
+          </suggested_amount>
+            <meet_developers>
+        https://addons.mozilla.org/en-US/firefox/addon/firephp/developers?src=api
+      </meet_developers>
+    </contribution_data><developer_comments></developer_comments>
+    <reviews num="39">
+      https://addons.mozilla.org/en-US/firefox/addon/firephp/reviews/?src=api
+    </reviews>
+    <total_downloads>1572490</total_downloads>
+    <weekly_downloads>3502</weekly_downloads>
+    <daily_users>77820</daily_users>
+    <created epoch="1196973805">
+      2007-12-06T20:43:25Z
+    </created>
+    <last_updated epoch="1378460062">
+      2013-09-06T09:34:22Z
+    </last_updated>
+    <homepage>http://www.firephp.org/</homepage>
+    <support>http://forum.firephp.org/</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="5792">
+  <name>Firesizer</name>
+  <type id="1">Extension</type>
+  <guid>{04426594-bce6-4705-b811-bcdba2fd9c7b}</guid>
+  <slug>firesizer</slug>
+  <version>1.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="194035">
+      <name>orev</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/orev/?src=api</link>
+    </author>      </authors>
+  <summary>Allows you to resize the window to specific dimensions.</summary>
+  <description>Provides a menu and status bar to resize the window dimensions to a specific size.  Unlike other similar extensions, this one sets the size of the *entire window*, not just the HTML area, which better reflects the environment that end users will be using.
+
+This add-on uses the &#34;Add On&#34; bar at the bottom of the Firefox window, which is hidden by default on recent versions of Firefox.  I highly recommend the &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/barlesque/&#34; rel=&#34;nofollow&#34;&gt;Barlesque&lt;/a&gt; add-on to get the best of both worlds.
+
+Heavily inspired by &#34;Yet Another Window Resizer&#34; by  Galoca</description><license>
+    <name>Custom License</name>
+    <url>https://addons.mozilla.org/en-US/firefox/addon/firesizer/license/1.7</url>
+  </license>  <icon size="64"></icon>
+  <icon size="32"></icon>
+  <compatible_applications><application>
+      <name>Thunderbird</name>
+      <application_id>18</application_id>
+      <min_version>1.5</min_version>
+      <max_version>6.*</max_version>
+      <appID>{3550f703-e582-4d05-9a08-453d09bdfdc6}</appID>
+    </application><application>
+      <name>SeaMonkey</name>
+      <application_id>59</application_id>
+      <min_version>2.0</min_version>
+      <max_version>2.6.*</max_version>
+      <appID>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</appID>
+    </application><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>1.5</min_version>
+      <max_version>13.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="image/png" width="158" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/16/16655.png?src=api&amp;modified=1331247702
+      </full>
+      <thumbnail type="image/png" width="158" height="149">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/16/16655.png?src=api&amp;modified=1331247702
+      </thumbnail></preview></previews><rating>4</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/firesizer/?src=api</learnmore><install hash="sha256:d4a2a8c261d76b75d9f28941c5bbfccede937eafdee50aa2de5dc29c673897f5"
+    os="ALL"
+    size="17408">https://addons.mozilla.org/firefox/downloads/file/134751/firesizer-1.7-tb+sm+fx+sb.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="114">
+      https://addons.mozilla.org/en-US/firefox/addon/firesizer/reviews/?src=api
+    </reviews>
+    <total_downloads>781776</total_downloads>
+    <weekly_downloads>1848</weekly_downloads>
+    <daily_users>47372</daily_users>
+    <created epoch="1191419898">
+      2007-10-03T13:58:18Z
+    </created>
+    <last_updated epoch="1319014582">
+      2011-10-19T08:56:22Z
+    </last_updated>
+    <homepage>https://addons.mozilla.org/en-US/firefox/addon/5792</homepage>
+    <support>https://addons.mozilla.org/en-US/firefox/addon/5792</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="161670">
+  <name>FlashFirebug</name>
+  <type id="1">Extension</type>
+  <guid>flashfirebug@o-minds.com</guid>
+  <slug>flashfirebug</slug>
+  <version>4.7</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="5964078">
+      <name>O-Minds</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/ominds/?src=api</link>
+    </author>      </authors>
+  <summary>Debug Flash/SWF files on the web. Edit properties and inspect elements on the fly. View log output inside the extension. Run AS3 code against the active SWF. Access assets with the Explorer. View AMF calls and Shared Objects and much much more...</summary>
+  <description>FlashFirebug gives you the ability to debug any AS3 Flash on the web. Inspect the DisplayList, change properties on the fly and see the warnings, errors and traces directly in the extension. Use the inspector to hone in on elements, transform objects on the fly and use the console to run AS3 commands on the active SWF. This extension is a paid extension, you can get a 7 day trial from here:
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/6ba22a69a71da255e9128d9b734ef2efc774068207f00d8c866e5eeab50f608d/http%3A//www.o-minds.com/payment/flashfirebug&#34; rel=&#34;nofollow&#34;&gt;http://www.o-minds.com/payment/flashfirebug&lt;/a&gt;
+
+This extension requires Flash Player Debugger for netscape compatible browsers (&lt;a href=&#34;http://outgoing.mozilla.org/v1/0bb691111a62191f0f38554dc68f43589202a29d58f8543d95c0b26658d751dc/http%3A//www.adobe.com/support/flashplayer/downloads.html&#34; rel=&#34;nofollow&#34;&gt;http://www.adobe.com/support/flashplayer/downloads.html&lt;/a&gt;) installed. You can find out more on the product website at:
+
+&lt;a href=&#34;http://outgoing.mozilla.org/v1/3342d9e6a014b917d3822b437cbda440bc94b8de5c2e0feb329109b729039b40/http%3A//www.o-minds.com/products/flashfirebug&#34; rel=&#34;nofollow&#34;&gt;http://www.o-minds.com/products/flashfirebug&lt;/a&gt;
+
+Here are some of the extension features:
+1. Output: View errors, warning, and trace output inside the extension.
+2. Properties: View and change object properties at run-time.
+3. SWF Inspector Tool: Inspect inside SWF files like you inspect HTML.
+4. AMF Tab: Lives in the Net Panel and shows AMF request details.
+5. Shared Object Panel: Displays any shared objects related to the site.
+6. Console: Execute AS3 against active SWF.
+7. Explorer: Explore the assets inside the active SWF.
+8. 3D Transform Tool: Free Transform, 3D Rotate, 3D Translate.
+9. Profiler: Find out what&#39;s slowing down your SWFs.
+10. And much more to come...
+
+Follow us on twitter for FlashFirebug &lt;a href=&#34;http://outgoing.mozilla.org/v1/18571df6ccae276668235c848595b7316ccfce0d3be4df19f7da035a5eaf3b42/http%3A//twitter.com/flashfirebug&#34; rel=&#34;nofollow&#34;&gt;updates&lt;/a&gt;
+
+Please report feature requests, support requests and bugs at our &lt;a href=&#34;http://outgoing.mozilla.org/v1/e451fa530de9959c095bef5a084cd68ab9d32b716c698eefb327aac4f154ac92/http%3A//www.o-minds.com/contact&#34; rel=&#34;nofollow&#34;&gt;contact page&lt;/a&gt;.</description><license>
+    <name>GNU Lesser General Public License, version 3.0</name>
+    <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/161/161670-64.png?modified=1369508745</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/161/161670-32.png?modified=1369508745</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>3.5</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="387">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59911.png?src=api&amp;modified=1309427175
+      </full>
+      <thumbnail type="" width="200" height="110">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59911.png?src=api&amp;modified=1309427175
+      </thumbnail><caption>FlashFirebug 3.0</caption></preview><preview position="1">
+      <full type="" width="634" height="220">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59906.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="69">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59906.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Display Tree</caption></preview><preview position="2">
+      <full type="" width="601" height="515">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59899.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="175" height="150">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59899.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>3D Transform Tool</caption></preview><preview position="3">
+      <full type="" width="700" height="335">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59900.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="95">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59900.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>SWF Inspector</caption></preview><preview position="4">
+      <full type="" width="596" height="282">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59901.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="94">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59901.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>General Information</caption></preview><preview position="5">
+      <full type="" width="476" height="259">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59902.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="108">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59902.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Console</caption></preview><preview position="6">
+      <full type="" width="549" height="195">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59903.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="71">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59903.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Output</caption></preview><preview position="7">
+      <full type="" width="694" height="271">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59904.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="78">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59904.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Properties</caption></preview><preview position="8">
+      <full type="" width="223" height="160">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/59/59905.png?src=api&amp;modified=1309427176
+      </full>
+      <thumbnail type="" width="200" height="143">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/59/59905.png?src=api&amp;modified=1309427176
+      </thumbnail><caption>Settings</caption></preview></previews><rating>5</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/flashfirebug/?src=api</learnmore><install hash="sha256:07ab3ece5e7ce3bfa5e206dd01a990babb6865b95e27ea42d6f6522101c4b8ed"
+    os="ALL"
+    size="2572274">https://addons.mozilla.org/firefox/downloads/file/230059/flashfirebug-4.7-fx.xpi?src=api</install>
+  <developer_comments>Cost for extension may change anytime but would only affect new users. Old users will remain on same plan as long as subscription is not terminated by user.</developer_comments>
+    <reviews num="3">
+      https://addons.mozilla.org/en-US/firefox/addon/flashfirebug/reviews/?src=api
+    </reviews>
+    <total_downloads>1395812</total_downloads>
+    <weekly_downloads>5632</weekly_downloads>
+    <daily_users>56157</daily_users>
+    <created epoch="1273367099">
+      2010-05-09T01:04:59Z
+    </created>
+    <last_updated epoch="1381672794">
+      2013-10-13T13:59:54Z
+    </last_updated>
+    <homepage>http://www.o-minds.com/products/flashfirebug</homepage>
+    <support>http://www.o-minds.com/contact</support>
+    <featured>0</featured>
+        <performance>
+      </performance>
+    </addon>
+  <addon id="363974">
+  <name>Lightbeam for Firefox</name>
+  <type id="1">Extension</type>
+  <guid>jid1-F9UJ2thwoAm5gQ@jetpack</guid>
+  <slug>lightbeam</slug>
+  <version>1.0.2</version>
+  <status id="4">Fully Reviewed</status>
+  <authors>
+        <author id="4757633">
+      <name>Mozilla</name>
+      <link>https://addons.mozilla.org/en-US/firefox/user/mozilla/?src=api</link>
+    </author>      </authors>
+  <summary>Lightbeam is a Firefox add-on that enables you to see the first and third party sites you interact with on the Web. Using interactive visualizations, Lightbeam shows you the relationships between these third parties and the sites you visit.</summary>
+  <description>&lt;b&gt;About this Add-on&lt;/b&gt;
+Using interactive visualizations, Lightbeam enables you to see the first and third party sites you interact with on the Web. As you browse, Lightbeam reveals the full depth of the Web today, including parts that are not transparent to the average user. Using three distinct interactive graphic representations — Graph, Clock and List — Lightbeam enables you to examine individual third parties over time and space, identify where they connect to your online activity and provides ways for you to engage with this unique view of the Web.
+
+&lt;b&gt;How Lightbeam Works&lt;/b&gt;
+When you activate Lightbeam and visit a website, sometimes called the first party, the add-on creates a real time visualization of all the third parties that are active on that page. The default visualization is called the Graph view. As you then browse to a second site, the add-on highlights the third parties that are also active there and shows which third parties have seen you at both sites. The visualization grows with every site you visit and every request made from your browser. In addition to the Graph view, you can also see your data in a Clock view to examine connections over a 24-hour period or in a List view to drill down into individual sites.
+
+&lt;b&gt;How You Can Use Lightbeam to Help Us Illuminate the Inner Workings of the Web&lt;/b&gt; 
+As a part of Lightbeam, we&#39;re creating a big-picture view of how tracking works on the Internet, and how third-party sites are connected to multiple other sites. You may contribute your data to our crowdsourced directory by simply turning on the share switch within the add-on. To disable crowdsourcing, you can turn it off at any time. You can view your local data stored within Lightbeam at any time, or save your data by clicking the &#34;Save&#34; button under the data section on the left side of the add-on.
+
+&lt;b&gt;How is my information stored? &lt;/b&gt;
+As a default, all info generated and used for Lightbeam’s visualizations and features are only stored locally on your computer. You can save a copy of your connection history at any time, which is also where you can see the specific data collected by the add-on. You may also reset Lightbeam to erase your locally stored connection history, disable it to stop data collection or uninstall it to instantly remove all locally stored data related to Lightbeam. Additional information related to Lightbeam’s file format is available &lt;a href=&#34;http://outgoing.mozilla.org/v1/e6faa2368f9fdd828b8443633e7b8c60337602584b1282ecdc03e8e4ccb2ef28/https%3A//github.com/mozilla/lightbeam/blob/master/doc/data_format.v1.1.md&#34; rel=&#34;nofollow&#34;&gt;here&lt;/a&gt;  
+
+&lt;b&gt;The origins of Lightbeam&lt;/b&gt;
+Lightbeam began in July 2011 as Collusion, a personal project by Mozilla software developer &lt;a href=&#34;http://outgoing.mozilla.org/v1/225abfe6296b383886331e9f55970b90ac8cb481453a4921df5c6273887df020/http%3A//www.toolness.com/wp/&#34; rel=&#34;nofollow&#34;&gt;Atul Varma&lt;/a&gt;. Inspired by the book &lt;i&gt;The Filter Bubble&lt;/i&gt;, Atul created an experimental add-on to visualize browsing behavior and data collection on the Web.
+
+In February 2012, Gary Kovacs, Mozilla CEO at the time, introduced the Collusion add-on in a &lt;a href=&#34;http://outgoing.mozilla.org/v1/368f827c03ff1b7db95f66a18f7ba5eeea359f0458bbc1811b1b8c25f2144eb8/http%3A//www.ted.com/talks/gary_kovacs_tracking_the_trackers.html&#34; rel=&#34;nofollow&#34;&gt;TED talk&lt;/a&gt; (now one of the most watched TED talks) about exposing online tracking.
+
+In September 2012, Mozilla joined forces with students at &lt;a href=&#34;http://outgoing.mozilla.org/v1/9d03ec7111b19d7b1070016b09e5c2a54bd57860159b5de7c2ecbf08b15e47e3/https%3A//www.ecuad.ca/&#34; rel=&#34;nofollow&#34;&gt;Emily Carr University of Art + Design&lt;/a&gt; to develop and implement visualizations for the add-on. With the support of the Ford Foundation and the Natural Sciences and Engineering Research Council (NSERC), Collusion has been re-imagined as Lightbeam and was launched in the fall of 2013.
+
+To read more about the collaboration, please visit &lt;a href=&#34;http://outgoing.mozilla.org/v1/ac031e0899bc1eae173d9318e6e2573536e676b59e08a50d5fc13c8e0e5758f0/http%3A//www.simcentre.ca&#34; rel=&#34;nofollow&#34;&gt;http://www.simcentre.ca&lt;/a&gt; 
+
+&lt;b&gt;Feedback&lt;/b&gt;
+Your input is valuable to us, so don’t forget to rate, review or give us feedback after using Lightbeam. For more information, please check out our website at: &lt;a href=&#34;http://outgoing.mozilla.org/v1/97f22d3126ffc380836dd3cad0a83e97b37eb2ee2be235a8a807c1cacf1a0a96/www.mozilla.org/lightbeam&#34; rel=&#34;nofollow&#34;&gt;www.mozilla.org/lightbeam&lt;/a&gt;
+If you would like to keep an eye on our progress, file a bug, request a feature, or get a copy of the source code, please go to &lt;a href=&#34;http://outgoing.mozilla.org/v1/cd2fe5143b0b72dbdf914e942b19c77bbbad428bb562b24f9121efc985fef307/https%3A//github.com/mozilla/lightbeam&#34; rel=&#34;nofollow&#34;&gt;https://github.com/mozilla/lightbeam&lt;/a&gt;.</description><license>
+    <name>Mozilla Public License, version 2.0</name>
+    <url>http://www.mozilla.org/MPL/2.0/</url>
+  </license>  <icon size="64">https://addons.cdn.mozilla.net/img/uploads/addon_icons/363/363974-64.png?modified=1384282305</icon>
+  <icon size="32">https://addons.cdn.mozilla.net/img/uploads/addon_icons/363/363974-32.png?modified=1384282305</icon>
+  <compatible_applications><application>
+      <name>Firefox</name>
+      <application_id>1</application_id>
+      <min_version>19.0</min_version>
+      <max_version>26.*</max_version>
+      <appID>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</appID>
+    </application></compatible_applications>
+  <all_compatible_os><os>ALL</os></all_compatible_os>
+  <eula></eula><previews><preview position="0">
+      <full type="" width="700" height="437">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/116/116420.png?src=api&amp;modified=1382703233
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/116/116420.png?src=api&amp;modified=1382703233
+      </thumbnail><caption>The default Graph view displays third party relationships on the web.</caption></preview><preview position="1">
+      <full type="" width="700" height="437">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/116/116421.png?src=api&amp;modified=1382703233
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/116/116421.png?src=api&amp;modified=1382703233
+      </thumbnail><caption>The clock view shows your connections over the course of your day. Clicking on a site highlights that site over your day, when it loaded, which third parties it connected to, and when.</caption></preview><preview position="2">
+      <full type="" width="700" height="437">
+        https://addons.cdn.mozilla.net/img/uploads/previews/full/116/116422.png?src=api&amp;modified=1382703233
+      </full>
+      <thumbnail type="" width="200" height="125">
+        https://addons.cdn.mozilla.net/img/uploads/previews/thumbs/116/116422.png?src=api&amp;modified=1382703233
+      </thumbnail><caption>The List view provides a closer look at individual sites and third parties.</caption></preview></previews><rating>3</rating>
+  <learnmore>https://addons.mozilla.org/en-US/firefox/addon/lightbeam/?src=api</learnmore><install hash="sha256:2d735af8cd059e2b55ea6a7e03e2ce65d95d5143c0377bd59f817e4d6545201f"
+    os="ALL"
+    size="833307">https://addons.mozilla.org/firefox/downloads/file/231686/collusion-1.0.2-fx.xpi?src=api</install>
+  <developer_comments></developer_comments>
+    <reviews num="263">
+      https://addons.mozilla.org/en-US/firefox/addon/lightbeam/reviews/?src=api
+    </reviews>
+    <total_downloads>2179664</total_downloads>
+    <weekly_downloads>17047</weekly_downloads>
+    <daily_users>521325</daily_users>
+    <created epoch="1330036570">
+      2012-02-23T22:36:10Z
+    </created>
+    <last_updated epoch="1382636342">
+      2013-10-24T17:39:02Z
+    </last_updated>
+    <homepage>http://www.mozilla.org/en-US/lightbeam/</homepage>
+    <support>https://github.com/mozilla/lightbeam/issues</support>
+    <featured>1</featured>
+        <performance>
+      </performance>
+    </addon>
+    </searchresults>
